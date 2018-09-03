@@ -172,7 +172,6 @@
 		color: #C585D5;
 		display: block;
 		font-size: 14px;
-		text-transform:uppercase;
 		border: 2px solid #3F3F3F;
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
@@ -184,7 +183,6 @@
 		color: #fff;
 		font-weight: bold;
 		text-shadow:2px 2px #000;
-		text-transform:uppercase;
 		border: 2px solid #AB2375;
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
