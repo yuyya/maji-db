@@ -168,23 +168,28 @@
 
 	.modal-body .base-unit-view .base-tables ul.nav li a,
 	.modal-body .base-unit-view .base-tables ul.nav li a:focus {
-		color: #ffffff;
+		color: #C585D5;
 		display: block;
 		font-size: 14px;
-		border: 1px solid #885234;
-		outline: 1px solid #643623;
-		background-image: linear-gradient(to bottom, #351d0a, #845935);
+		border: 2px solid #3F3F3F;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom: 3px solid #AB2375;
+		outline: 1px solid #3F3F3F;
+		background-color: 040404;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav li.active a,
 	.modal-body .base-unit-view .base-tables ul.nav li.active a:focus {
-		color: #432b1e;
+		color: #fff;
 		font-weight: bold;
-		outline: none;
-		border: 1px solid #fffefd;
-		border-bottom: 1px solid #9e9695;
-		outline: 1px solid #8e8b8c;
-		background-image: linear-gradient(to bottom, #fffefb, #eee6e2);
+		text-shadow:2px 2px #000;
+		border: 2px solid #AB2375;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom: 3px solid #AB2375;
+		outline: 1px solid #AB2375;
+		background-image: linear-gradient(to bottom, #2D1221, #AB2375);
 	}
 
 
