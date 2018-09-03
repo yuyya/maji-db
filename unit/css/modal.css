@@ -173,10 +173,7 @@
 		color: #C585D5;
 		display: block;
 		font-size: 14px;
-		border-top: 2px solid #3F3F3F;
-		border-left: 2px solid #3F3F3F;
-		border-right: 2px solid #3F3F3F;
-		border-bottom: 0px;
+		border: 2px solid #3F3F3F;
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
 		background-color: #040404;
