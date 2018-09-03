@@ -244,7 +244,9 @@
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .description p {
+		color: #fff;
 		font-size: 12px;
+		text-shadow:2px 2px #000;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability {
