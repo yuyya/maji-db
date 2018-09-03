@@ -144,9 +144,8 @@
 
 	.modal-body .base-unit-view .base-tables {
 		height: 363px;
-		outline: 1px solid #8f640e;
-		border: 2px solid #efdbac;
-		background-color: #ffffff;
+		border: 0px solid #efdbac;
+		background-color: #000;
 		box-shadow: 0 0 0px 2px #c7a664;
 	}
 
@@ -164,6 +163,7 @@
 		flex: 1;
 		text-align: center;
 		display: inline-block;
+		padding-left: 10px;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav li a,
@@ -175,8 +175,7 @@
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
 		border-bottom: 3px solid #AB2375;
-		outline: 1px solid #3F3F3F;
-		background-color: 040404;
+		background-color: #040404;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav li.active a,
@@ -188,7 +187,6 @@
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
 		border-bottom: 3px solid #AB2375;
-		outline: 1px solid #AB2375;
 		background-image: linear-gradient(to bottom, #2D1221, #AB2375);
 	}
 
