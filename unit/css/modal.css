@@ -176,6 +176,7 @@
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
 		background-color: #040404;
+		margin-bottom:-2px;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav li.active a,
@@ -187,6 +188,7 @@
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
 		background-image: linear-gradient(to bottom, #2D1221, #AB2375);
+		margin-bottom:-2px;
 	}
 
 
