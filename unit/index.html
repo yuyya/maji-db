@@ -4,19 +4,31 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ナルコレ：忍</title>
+    <title>100% Maji Battle</title>
 
     <!--BOOTSTRAP -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!--FAVICON-->
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#da532c">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+
+
 	    <!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/datatables.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -48,12 +60,14 @@
 
 				<div class="modal-header">
 					<div class="row">
-						<div class="col-md-9 col-xs-6">
+					<div class="col-md-9 col-xs-6">
 							<div class="unit-icon">
 								<img id="icon-unit" src="" >
 							</div>
 							<img id="type-unit" src="" height="50px" style="margin-top: 10px;">		
 							<h3 id="name-unit"></h3>
+							&emsp;
+						</div>
 						<div class="col-md-3 col-xs-6">
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
@@ -75,7 +89,7 @@
 								<div class="row">
 									<div class="col-md-4">
 										<div class="img-unit">
-											<img id="card-art-five-star" src="">
+											<img id="card-art" src="">
 										</div>
 									</div>
 									<div class="col-md-8">
@@ -83,28 +97,21 @@
 											<div class="row">
 												<div class="col-md-12">
 													<ul class="nav nav-nscdb" role="tablist">
-														<li class="active"><a id="skills-btn" class="active" data-toggle="tab" href="#skills">スキル</a></li>
-														<li><a id="ability-btn" data-toggle="tab" href="#ability">アビリティ</a></li>
-														<li class="hidden"><a id="status-btn" data-toggle="tab" href="#status">ステータス</a></li>
-														<li class=""><a id="gear-btn" data-toggle="tab" href="#gear">忍具</a></li>
+														<li class="active"><a id="special-btn" class="active" data-toggle="tab" href="#special">Special</a></li>
+														<li><a id="auto-skill-btn" data-toggle="tab" href="#autoskill">Auto Skill</a></li>
+														<li><a id="status-btn" data-toggle="tab" href="#status">Stats</a></li>
+														<li><a id="link-btn" data-toggle="tab" href="#link">Character Link</a></li>
 													</ul>
 												</div>
 												<div class="col-md-12">
 													<div class="tab-content">
-														<div class="tab-pane active" id="skills">
+														<div class="tab-pane active" id="special">
 															<div class="base-skill">
 																<div class="header">
-																	<div class="type">
-																		<h4 id="skill1type-five"></h4>
-																	</div>
 																	<div class="title">
 																		<h3 id="skill1name-five"></h3>
-																		<p id="skill1ogname-five"></p>
 																	</div>
-																	<div class="speed">
-																		<p id="skill1speed-five"></p>
-																	</div>
-																	<div class="chakra">
+																	<div class="cd">
 																		<p id="skill1cost-five"></p>
 																	</div>
 																</div>
@@ -114,17 +121,10 @@
 															</div>
 															<div class="base-skill">
 																<div class="header">
-																	<div class="type">
-																		<h4 id="skill2type-five"></h4>
-																	</div>
 																	<div class="title">
 																		<h3 id="skill2name-five"></h3>
-																		<p id="skill2ogname-five"></p>
 																	</div>
-																	<div class="speed">
-																		<p id="skill2speed-five"></p>
-																	</div>
-																	<div class="chakra">
+																	<div class="cd">
 																		<p id="skill2cost-five"></p>
 																	</div>
 																</div>
@@ -132,120 +132,53 @@
 																	<p id="skill2-five"></p>
 																</div>
 															</div>
+
 														</div>
-														<div class="tab-pane fade" id="ability">
+														<div class="tab-pane fade" id="autoskill">
+															<div id='auto-skill'>
+																
+															</div>
+														</div>
+
+														<div class="tab-pane fade" id="status">
 															<div class="base-ability">
 																<div class="header leader">
 																	<div class="type">
-																		<h4>隊長</h4>
+																		<h4>Lead</h4>
 																	</div>
 																	<div class="title">
 																		<h3 id="leadname-five"></h3>
 																	</div>
 																</div>
-																<div class="description">
-																	<p id="lead-five"></p>
-																</div>
 															</div>
-															<div class="base-ability">
-																<div class="header">
-																	<div class="type">
-																		<h4>アビリティ1</h4>
-																	</div>
-																	<div class="title">
-																		<h3 id="ability1name-five"></h3>
-																	</div>
-																</div>
-																<div class="description">
-																	<p id="ability1-five"></p>
-																</div>
-															</div>
-															<div class="base-ability">
-																<div class="header">
-																	<div class="type">
-																		<h4>アビリティ2</h4>
-																	</div>
-																	<div class="title">
-																		<h3 id="ability2name-five"></h3>
-																	</div>
-																</div>
-																<div class="description">
-																	<p id="ability2-five"></p>
-																</div>
-															</div>
-														</div>
-														<div class="tab-pane fade" id="status">
-															<table class="table">
-																<thead>
-																	<tr>
-																		<th></th>
-																		<th>基礎</th>
-																		<th>アビリティ</th>
-																		<th>スキル</th>
-																		<th>合計</th>
-																	</tr>
-																</thead>
+															<table class="table col-md-12 col-md-offset-4">
 																<tbody>
 																	<tr>
+																		<td>Power</td>
+																		<td id="power"></td>
+																		</tr>
+																	<tr>
 																		<td>HP</td>
-																		<td id="base-hp-five"></td>
-																		<td id="ability-hp-five"></td>
-																		<td id="gear-hp-five"></td>
-																		<td id="max-hp-five"></td>
+																		<td id="hp"></td>
+																	<tr>
+																		<td>ATK</td>
+																		<td id="atk"></td>
 																	</tr>
 																	<tr>
-																		<td>攻撃力</td>
-																		<td id="base-atk-five"></td>
-																		<td id="ability-atk-five"></td>
-																		<td id="gear-atk-five"></td>
-																		<td id="max-atk-five"></td>
+																		<td>SP</td>
+																		<td id="sp"></td>
 																	</tr>
 																	<tr>
-																		<td>防御力</td>
-																		<td id="base-def-five"></td>
-																		<td id="ability-def-five"></td>
-																		<td id="gear-def-five"></td>
-																		<td id="max-def-five"></td>
+																		<td>DEF</td>
+																		<td id="def"></td>
 																	</tr>
 																	<tr>
-																		<td>素早さ</td>
-																		<td id="base-agility-five"></td>
-																		<td id="ability-agility-five"></td>
-																		<td id="gear-agility-five"></td>
-																		<td id="max-agility-five"></td>
-																	</tr>
-																	<tr>
-																		<td>回避率</td>
-																		<td id="base-evasion-five">%</td>
-																		<td id="ability-evasion-five">%</td>
-																		<td id="gear-evasion-five">%</td>
-																		<td id="max-evasion-five">%</td>
-																	</tr>
-																	<tr>
-																		<td>会心率</td>
-																		<td id="base-criticalrate-five">%</td>
-																		<td id="ability-criticalrate-five">%</td>
-																		<td id="gear-criticalrate-five">%</td>
-																		<td id="max-criticalrate-five">%</td>
-																	</tr>
-																	<tr>
-																		<td>会心力</td>
-																		<td id="base-criticalpower-five">%</td>
-																		<td id="ability-criticalpower-five">%</td>
-																		<td id="gear-criticalpower-five">%</td>
-																		<td id="max-criticalpower-five">%</td>
-																	</tr>
-																	<tr>
-																		<td>スキルダメージ</td>
-																		<td id="base-skilldamage-five">%</td>
-																		<td id="ability-skilldamage-five">%</td>
-																		<td id="gear-skilldamage-five">%</td>
-																		<td id="max-skilldamage-five">%</td>
-																	</tr>
+																		<td>SPD</td>
+																		<td id="spd"></td>
 																</tbody>
 															</table>
 														</div>
-														<div class="tab-pane fade" id="gear" >
+														<div class="tab-pane fade" id="link" >
 															
 														</div>
 													</div>
@@ -256,290 +189,13 @@
 								</div>
 							</div>
 
-							<div id="six-star">
-								<div class="row">
-									<div class="col-md-4">
-										<div class="img-unit">
-											<img id="card-art-six-star" src="">
-										</div>
-									</div>
-									<div class="col-md-8">
-										<div class="base-tables">
-											<div class="row">
-												<div class="col-md-12">
-													<ul class="nav nav-nscdb">
-														<li class="active"><a id="skills-six-btn" data-toggle="tab" href="#skills-six">スキル</a></li>
-														<li><a id="ability-six-btn" data-toggle="tab" href="#ability-six">アビリティ</a></li>
-														<li class="hidden"><a id="status-six-btn" data-toggle="tab" href="#status-six">ステータス</a></li>
-														<li class=""><a id="gear-six-btn" data-toggle="tab" href="#gear-six">忍具</a></li>
-													</ul>
-												</div>
-												<div class="col-md-12">
-													<div class="tab-content">
-														<div class="tab-pane active" id="skills-six">
-															<div class="base-skill">
-																<div class="header">
-																	<div class="type">
-																		<h4 id="skill1type-six"></h4>
-																	</div>
-																	<div class="title">
-																		<h3 id="skill1name-six"></h3>
-																		<p id="skill1ogname-six"></p>
-																	</div>
-																	<div class="speed">
-																		<p id="skill1speed-six"></p>
-																	</div>
-																	<div class="chakra">
-																		<p id="skill1cost-six"></p>
-																	</div>
-																</div>
-																<div class="description">
-																	<p id="skill1-six"></p>
-																</div>
-															</div>
-															<div class="base-skill">
-																<div class="header">
-																	<div class="type">
-																		<h4 id="skill2type-six"></h4>
-																	</div>
-																	<div class="title">
-																		<h3 id="skill2name-six"></h3>
-																		<p id="skill2ogname-six"></p>
-																	</div>
-																	<div class="speed">
-																		<p id="skill2speed-six"></p>
-																	</div>
-																	<div class="chakra">
-																		<p id="skill2cost-six"></p>
-																	</div>
-																</div>
-																<div class="description">
-																	<p id="skill2-six"></p>
-																</div>
-															</div>
-														</div>
-
-
-														<div class="tab-pane fade" id="ability-six">
-															<div class="base-ability">
-																<div class="header leader">
-																	<div class="type">
-																		<h4>隊長</h4>
-																	</div>
-																	<div class="title">
-																		<h3 id="leadname-six"></h3>
-																	</div>
-																</div>
-																<div class="description">
-																	<p id="lead-six"></p>
-																</div>
-															</div>
-															<div class="base-ability">
-																<div class="header">
-																	<div class="type">
-																		<h4>アビリティ1</h4>
-																	</div>
-																	<div class="title">
-																		<h3 id="ability1name-six"></h3>
-																	</div>
-																</div>
-																<div class="description">
-																	<p id="ability1-six"></p>
-																</div>
-															</div>
-															<div class="base-ability">
-																<div class="header">
-																	<div class="type">
-																		<h4>アビリティ2</h4>
-																	</div>
-																	<div class="title">
-																		<h3 id="ability2name-six"></h3>
-																	</div>
-																</div>
-																<div class="description">
-																	<p id="ability2-six"></p>
-																</div>
-															</div>
-														</div>
-														<div class="tab-pane fade" id="status-six">
-															<table class="table">
-																<thead>
-																	<tr>
-																		<th></th>
-                                                                        <th>基礎</th>
-                                                                        <th>アビリティ</th>
-                                                                        <th>スキル</th>
-                                                                        <th>合計</th>
-																	</tr>
-																</thead>
-																<tbody>
-																	<tr>
-																		<td>HP</td>
-																		<td id="base-hp-six"></td>
-																		<td id="ability-hp-six"></td>
-																		<td id="gear-hp-six"></td>
-																		<td id="max-hp-six"></td>
-																	</tr>
-																	<tr>
-																		<td>攻撃力</td>
-																		<td id="base-atk-six"></td>
-																		<td id="ability-atk-six"></td>
-																		<td id="gear-atk-six"></td>
-																		<td id="max-atk-six"></td>
-																	</tr>
-																	<tr>
-																		<td>防御力</td>
-																		<td id="base-def-six"></td>
-																		<td id="ability-def-six"></td>
-																		<td id="gear-def-six"></td>
-																		<td id="max-def-six"></td>
-																	</tr>
-																	<tr>
-																		<td>素早さ</td>
-																		<td id="base-agility-six"></td>
-																		<td id="ability-agility-six"></td>
-																		<td id="gear-agility-six"></td>
-																		<td id="max-agility-six"></td>
-																	</tr>
-																	<tr>
-																		<td>回避率</td>
-																		<td id="base-evasion-six">%</td>
-																		<td id="ability-evasion-six">%</td>
-																		<td id="gear-evasion-six">%</td>
-																		<td id="max-evasion-six">%</td>
-																	</tr>
-																	<tr>
-																		<td>会心率</td>
-																		<td id="base-criticalrate-six">%</td>
-																		<td id="ability-criticalrate-six">%</td>
-																		<td id="gear-criticalrate-six">%</td>
-																		<td id="max-criticalrate-six">%</td>
-																	</tr>
-																	<tr>
-																		<td>会心力</td>
-																		<td id="base-criticalpower-six">%</td>
-																		<td id="ability-criticalpower-six">%</td>
-																		<td id="gear-criticalpower-six">%</td>
-																		<td id="max-criticalpower-six">%</td>
-																	</tr>
-																	<tr>
-																		<td>スキルダメージ</td>
-																		<td id="base-skilldamage-six">%</td>
-																		<td id="ability-skilldamage-six">%</td>
-																		<td id="gear-skilldamage-six">%</td>
-																		<td id="max-skilldamage-six">%</td>
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-														<div class="tab-pane fade" id="gear-six">
-																<div class="base-gear">
-																	<div class="icon">
-																		<img src="../common/assets/img/gear/ningu_6405.png">
-																	</div>
-																	<div class="info">
-																		<div class="header">
-																			<div class="type">
-																				<h4 type="スキル強化">スキル強化</h4>
-																			</div>
-																			<div class="title">
-																				<h3>三代目雷影の入れ墨	</h3>
-																			</div>
-																		</div>
-																		<div class="description">
-																			<p>全タイプのスキルダメージと攻撃力が100％アップ</p>
-																		</div>
-																	</div>
-																</div>
-																<div class="base-gear">
-																	<div class="icon">
-																		<img src="../common/assets/img/gear/ningu_6415.png">
-																	</div>
-																	<div class="info">
-																		<div class="header">
-																			<div class="type">
-																				<h4 type="ステータス強化">ステータス強化</h4>
-																			</div>
-																			<div class="title">
-																				<h3>ダルイの刀	</h3>
-																			</div>
-																		</div>
-																		<div class="description">
-																			<p>最大HPと攻撃力と素早さが80%アップし、行動後にチャクラが10%回復する</p>
-																		</div>
-																	</div>
-																</div>
-																<div class="base-gear">
-																	<div class="icon">
-																		<img src="../common/assets/img/gear/ningu_8845.png">
-																	</div>
-																	<div class="info">
-																		<div class="header">
-																			<div class="type">
-																				<h4 type="チャクラ">チャクラ</h4>
-																			</div>
-																			<div class="title">
-																				<h3>琥珀の浄瓶</h3>
-																			</div>
-																		</div>
-																		<div class="description">
-																			<p>行動後にチャクラが30％回復し、全スキルダメージ70％アップ、尾獣・六道タイプのスキル無効化</p>
-																		</div>
-																	</div>
-																</div>
-																<div class="base-gear">
-																	<div class="icon">
-																		<img src="../common/assets/img/gear/ningu_9045.png">
-																	</div>
-																	<div class="info">
-																		<div class="header">
-																			<div class="type">
-																				<h4 type="ステータス強化">ステータス強化</h4>
-																			</div>
-																			<div class="title">
-																				<h3>ダルイの包帯</h3>
-																			</div>
-																		</div>
-																		<div class="description">
-																			<p>最大HPと攻撃力が120％アップし、ダメージを受けた時にHPとチャクラが10％回復</p>
-																		</div>
-																	</div>
-																</div>
-																<div class="base-gear">
-																	<div class="icon">
-																		<img src="../common/assets/img/gear/ningu_9055.png">
-																	</div>
-																	<div class="info">
-																		<div class="header">
-																			<div class="type">
-																				<h4 type="追加効果">追加効果</h4>
-																			</div>
-																			<div class="title">
-																				<h3>雷遁・感激波</h3>
-																			</div>
-																		</div>
-																		<div class="description">
-																			<p>素早さが50％アップし、スキル発動速度が1段階アップする</p>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
 						</div>
-
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
+</div>
 	<!-- MODAL -->
 
 	<div class="container">
@@ -555,7 +211,8 @@
 						<ul>
 							<!-- <li><a href="nsc-db.github.io/index.html" role="button">Front Page</a> -->
 							<li class="active"><a href="" role="button">Units</a>
-
+							<li><a href="../support" role="button">Supports</a>
+	
 
 							<!-- <li><a href="/guides" role="button">Guides</a>
 							<li><a href="/faq" role="button">FAQ</a> -->

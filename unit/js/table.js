@@ -20,7 +20,7 @@ $(document).ready( function () {
 		            { title: "Class" },
 		            { 
 		            	title: "Rarity",
-		            	"visible": false,
+		            	"visible": true,
 		            	"searchable": true
 		            },
 		            { title: "Power" },
@@ -32,7 +32,7 @@ $(document).ready( function () {
 		            	title: "SPD",
 		            	"visible": true,
 		            	"searchable": true
-		            },
+		            }
 		            
 		        ],
       			 responsive: true
