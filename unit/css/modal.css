@@ -215,8 +215,10 @@
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header .title h3 {
-		font-size: 14px;
+		color: #FFF45C;
+		font-size: 20px;
 		font-weight: 700;
+		text-shadow:2px 2px #000;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header .title p {
