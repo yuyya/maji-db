@@ -133,7 +133,7 @@
 	}
 
 	.modal-body .base-unit-view .img-unit {
-		border: 2px solid #cccccc;
+		border: 0px solid #cccccc;
 		background-color: #ffffff;
 		box-shadow: 0 0 60px rgba(0,0,0,0.2);
 	}
@@ -158,6 +158,7 @@
 		display: flex;
 		justify-content: space-around;
 		border-bottom: 5px solid #AB2375;
+		padding-left:-10px;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav li {
@@ -165,7 +166,6 @@
 		text-align: center;
 		display: inline-block;
 		padding-right: 10px;
-		padding-left:-10px;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav li a,
