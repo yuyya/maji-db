@@ -146,12 +146,18 @@
 		height: 363px;
 		border: 0px solid #efdbac;
 		background-color: #000;
-		box-shadow: 0 0 0px 2px #c7a664;
+		box-shadow: 0 0 0px 0px #c7a664;
 	}
 
 	.modal-body .base-unit-view .base-tables .tab-content {
-		max-height: 308px;
+		height: 308px;
 		overflow: scroll;
+		border-top: 1px solid #transparent;
+		border-left: 1px solid #616161;
+		border-right: 1px solid #616161;
+		border-bottom: 1px solid #616161;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav {
