@@ -164,13 +164,12 @@
 		display: flex;
 		justify-content: space-around;
 		border-bottom: 5px solid #AB2375;
-		padding-right: -10px;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav li {
 		flex: 1;
 		text-align: center;
-		display: inline-block;
+		float: left;
 		padding-right: 10px;
 	}
 
