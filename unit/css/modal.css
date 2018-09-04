@@ -331,10 +331,10 @@
 	}
 
 	.modal-body .base-unit-view .base-tables table thead tr th:first-child {
-		background-color: #65224D
+		background-color: #fdf9f5
 	}
 	.modal-body .base-unit-view .base-tables table thead tr th:nth-child(odd) {
-		background-color: #fdf9f5
+		background-color: #65224D
 	}
 	.modal-body .base-unit-view .base-tables table thead tr th:nth-child(even) {
 		background-color: #f0e3ec
