@@ -145,13 +145,14 @@
 	.modal-body .base-unit-view .base-tables {
 		height: 363px;
 		border: 0px solid #efdbac;
-		background-color: #000;
+		background-color: transparent;
 		box-shadow: 0 0 0px 0px #c7a664;
 	}
 
 	.modal-body .base-unit-view .base-tables .tab-content {
 		height: 308px;
 		overflow-y: auto;
+		background-color: #000;
 		border-top: 1px solid #transparent;
 		border-left: 1px solid #616161;
 		border-right: 1px solid #616161;
