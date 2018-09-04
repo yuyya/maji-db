@@ -170,8 +170,14 @@
 
 	.modal-body .base-unit-view .base-tables ul.nav li {
 		flex: 1;
-		padding-right: 10px;
 		display:inline;
+		padding-right: 10px;
+	}
+
+	.modal-body .base-unit-view .base-tables ul.nav li .last{
+		flex: 1;
+		display:inline;
+		padding-right: -10px;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav li a,
