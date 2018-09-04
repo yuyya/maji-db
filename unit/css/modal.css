@@ -164,7 +164,7 @@
 		display: flex;
 		justify-content: space-around;
 		border-bottom: 5px solid #AB2375;
-		padding-left:-10px;
+		padding-right: -10px;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav li {
