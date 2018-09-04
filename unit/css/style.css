@@ -353,6 +353,10 @@ td.rarity[rarity="6" i] {
 	background-image: url(../img/rarity/6.png);
 }
 
+.container tbody tr {
+	text-decoration:none;
+}
+
 .news-box {
 	cursor: pointer;
 	display: block;
