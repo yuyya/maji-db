@@ -151,7 +151,7 @@
 
 	.modal-body .base-unit-view .base-tables .tab-content {
 		height: 308px;
-		overflow: scroll;
+		overflow-y: auto;
 		border-top: 1px solid #transparent;
 		border-left: 1px solid #616161;
 		border-right: 1px solid #616161;
@@ -164,13 +164,13 @@
 		display: flex;
 		justify-content: space-around;
 		border-bottom: 5px solid #AB2375;
+		text-align: center;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav li {
 		flex: 1;
-		text-align: center;
-		float: left;
 		padding-right: 10px;
+		display:inline;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav li a,
