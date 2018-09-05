@@ -9,7 +9,7 @@
 	.modal-content {
 		width:880px;
 	   	border: 0px;
-		margin:auto;
+		margin:auto 20px;
 	}
 
 	.modal-content h2,
@@ -150,7 +150,7 @@
 		width: 250px;
 		height: 370px;
 		border: 1px solid #AB2375;
-		outline: 3px solid #AB2375;
+		outline: 3px solid #000;
 		background-color: #000;
 		position: relative;
 		overflow: hidden;
