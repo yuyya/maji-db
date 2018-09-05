@@ -73,6 +73,7 @@
 	}
 
 	.modal-header .close {
+		opacity:1;
 		color: #AB2375;
 		outline: none;
 		margin: 12px 2px 0 0px;
@@ -80,6 +81,7 @@
 
 	.modal-header .close:hover {
 		color: #551C3F;
+		opacity:1;
 	}
 
 	.modal-body {
