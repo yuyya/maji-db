@@ -363,7 +363,7 @@ td.rarity[rarity="6" i] {
 }
 
 
-.container .base-content .row .col-md-12 table.display {
+.container .base-content .row .col-md-12 table.display thead {
   	background-color: #AB2375;
 	color: #FFF45C;
 	text-shadow:2px 2px #000;
