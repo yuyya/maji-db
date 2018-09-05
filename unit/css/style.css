@@ -385,6 +385,15 @@ table tbody.cards tr td a {
 	text-shadow: 1px 1px 3px #AB2375, 1px 1px 3px #AB2375;
 }
 
+.container .base-content .row .col-md-10 col-md-offset-2 a {
+	background-color:#fff;
+	padding:8px;
+	outline: 1px solid #000;
+        outline-offset: -5px;
+	border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
 .news-box {
 	cursor: pointer;
 	display: block;
