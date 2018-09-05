@@ -389,6 +389,13 @@ table tbody.cards tr td a {
 	text-shadow: 1px 1px 3px #AB2375, 1px 1px 3px #AB2375;
 }
 
+/* ---------- CARDS BG ------------- */
+
+table tbody.cards tr td img#icon-table {
+	background-color: transparent
+}
+
+
 /* ---------- FILTER TAGS ------------- */
 
 .container .base-content .row .col-md-10 .col-md-offset-2 .col-md-2 {
