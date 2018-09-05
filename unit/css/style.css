@@ -361,12 +361,15 @@ table tbody.cards tr {
         outline-offset: -5px;
 }
 
-table tbody.cards tr td img#icon-table {
+table tbody.cards tr td {
+	color: #fff;
+	text-shadow:2px 2px #000;
 	background-color: transparent;
 }
 
 table tbody.cards tr td a {
-text-decoration:none
+	color: #fff;
+	text-shadow: 1px 1px 5px #AB2375;
 }
 
 .news-box {
