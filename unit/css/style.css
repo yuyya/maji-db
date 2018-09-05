@@ -355,12 +355,13 @@ td.rarity[rarity="6" i] {
 
 table tbody.cards tr {
 	background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
+	border-radius:10px;
 	padding-bottom:8px;
 	outline: 1px solid #7C3462;
         outline-offset: -5px;
 }
 
-table tbody.cards tr td {
+table tbody.cards tr td img#icon-table {
 	background-color: transparent;
 }
 
