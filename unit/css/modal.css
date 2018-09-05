@@ -143,15 +143,19 @@
 	}
 
 	.modal-body .base-unit-view .img-unit {
-		max-width: 250px;
-		max-height: 370px;
+		width: 250px;
+		height: 370px;
 		border: 1px solid #AB2375;
 		outline: 1px solid #AB2375;
 		background-color: #000;
+		position: relative;
+		overflow: hidden;
 	}
 
 	.modal-body .base-unit-view .img-unit img {
-		text-indent: -50%;
+		position: absolute;
+		top: -50%;
+  		left: -50%;
 	}
 
 	.modal-body .base-unit-view .base-tables {
