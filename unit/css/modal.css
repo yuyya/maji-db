@@ -143,19 +143,15 @@
 	}
 
 	.modal-body .base-unit-view .img-unit {
-		width: 250px;
-		height: 370px;
+		max-width: 250px;
+		max-height: 370px;
 		border: 1px solid #AB2375;
 		outline: 1px solid #AB2375;
 		background-color: #000;
-		box-shadow: 0 0 60px rgba(0,0,0,0.2);
 	}
 
 	.modal-body .base-unit-view .img-unit img {
-		height: 100%;
-   		left: 50%;
-   		top: 50%;
-   		-webkit-transform: translateY(-50%) translateX(-50%);
+		text-indent: -50%;
 	}
 
 	.modal-body .base-unit-view .base-tables {
