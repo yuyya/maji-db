@@ -359,6 +359,7 @@ table tbody.cards tr {
 	padding-bottom:8px;
 	outline: 1px solid #7C3462;
         outline-offset: -5px;
+	border-bottom: 5px solid transparent;
 }
 
 table tbody.cards tr td {
@@ -368,8 +369,9 @@ table tbody.cards tr td {
 }
 
 table tbody.cards tr td a {
+	font-size: 15px;
 	color: #fff;
-	text-shadow: 1px 1px 5px #AB2375;
+	text-shadow: 1px 1px 3px #AB2375;
 }
 
 .news-box {
