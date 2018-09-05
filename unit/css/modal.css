@@ -73,8 +73,13 @@
 	}
 
 	.modal-header .close {
+		color: #AB2375;
 		outline: none;
 		margin: 12px 2px 0 0px;
+	}
+
+	.modal-header .close:hover {
+		color: #551C3F;
 	}
 
 	.modal-body {
