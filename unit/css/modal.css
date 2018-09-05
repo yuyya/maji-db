@@ -64,11 +64,12 @@
 	}
 
 	.modal-header h3 {
-		font-size: 14px;
 		font-weight: 700;
-		color: #3e2519;
 		display: inline-block;
 		margin: 0; padding: 0;
+		font-size: 15px;
+		color: #fff;
+		text-shadow: 1px 1px 3px #AB2375, 1px 1px 3px #AB2375;
 	}
 
 	.modal-header .close {
