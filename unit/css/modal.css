@@ -4,7 +4,7 @@
 		max-width: 100%;
 		padding: 0;
 		background-image: url(../img/boxbg.png);
-		box-shadow: 1px 1px 5px #D0098F, 1px 1px 5px #D0098F;
+		filter: drop-shadow(0px 0px 10px #D0098F);
 	}
 
 	.modal-content {
