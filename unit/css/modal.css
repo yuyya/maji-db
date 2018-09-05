@@ -3,7 +3,8 @@
 		width: 960px;
 		max-width: 100%;
 		padding: 0;
-		box-shadow: 0 0 60px rgba(0,0,0,0.2);
+		background-image: url(../img/boxbg.png);
+		box-shadow: 1px 1px 5px #D0098F, 1px 1px 5px #D0098F;
 	}
 
 	.modal-content {
