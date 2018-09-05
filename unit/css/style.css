@@ -353,13 +353,15 @@ td.rarity[rarity="6" i] {
 	background-image: url(../img/rarity/6.png);
 }
 
+/* ---------- BIG CARDS TABLE ------------- */
+
 .container .base-content .row table {
   	border-collapse: separate;
   	border-spacing: 0 5px;
 }
 
 
-.container .base-content .row .col-md-12 {
+.container .base-content .row .col-md-12 table {
   	background-color: #AB2375;
 	color: #FFF45C;
 	text-shadow:2px 2px #000;
@@ -384,6 +386,8 @@ table tbody.cards tr td a {
 	color: #fff;
 	text-shadow: 1px 1px 3px #AB2375, 1px 1px 3px #AB2375;
 }
+
+/* ---------- FILTER TAGS ------------- */
 
 .container .base-content .row .col-md-10 .col-md-offset-2 .col-md-2 {
 	color:#000;
