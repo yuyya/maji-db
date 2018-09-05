@@ -168,6 +168,7 @@
 
 	.modal-body .base-unit-view .base-tables {
 		height: 363px;
+		margin-left:-15px;
 		border: 0px solid #efdbac;
 		background-color: transparent;
 		box-shadow: 0 0 0px 0px #c7a664;
