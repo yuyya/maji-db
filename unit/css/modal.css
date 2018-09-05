@@ -77,11 +77,11 @@
 		color: #AB2375;
 		outline: none;
 		margin: 12px 2px 0 0px;
-		text-shadow: 0px;
+		text-shadow: 2px 2px #000;
 	}
 
 	.modal-header .close:hover {
-		text-shadow: 0px;
+		text-shadow: 2px 2px #000;
 		color: #551C3F;
 		opacity:1;
 	}
