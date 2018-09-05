@@ -387,7 +387,7 @@ table tbody.cards tr td a {
 
 .container .base-content .row .col-md-10 .col-md-offset-2 .col-md-2 {
 	color:#000;
-	background-color:#fff;
+	background-color:transparent;
 	padding:8px;
 	outline: 1px solid #000;
         outline-offset: -5px;
