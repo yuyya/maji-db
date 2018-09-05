@@ -353,7 +353,7 @@ td.rarity[rarity="6" i] {
 	background-image: url(../img/rarity/6.png);
 }
 
-.customr {
+table tbody.cards tr {
 	background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
 	padding:0px;
 	outline: 1px solid #7C3462;
@@ -361,7 +361,7 @@ td.rarity[rarity="6" i] {
 	margin-bottom: 8px;
 }
 
-.customr td a {
+table tbody.cards tr td a {
 text-decoration:none
 }
 
