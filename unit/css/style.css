@@ -354,8 +354,15 @@ td.rarity[rarity="6" i] {
 }
 
 .container .base-content .row table {
-    border-collapse: separate;
-    border-spacing: 0 5px;
+  	border-collapse: separate;
+  	border-spacing: 0 5px;
+}
+
+
+.container .base-content .row table thead {
+  	background-color: #AB2375;
+	color: #FFF45C;
+	text-shadow:2px 2px #000;
 }
 
 table tbody.cards tr {
