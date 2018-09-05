@@ -355,10 +355,9 @@ td.rarity[rarity="6" i] {
 
 table tbody.cards tr {
 	background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
-	padding:0px;
+	padding-bottom:8px;
 	outline: 1px solid #7C3462;
         outline-offset: -5px;
-	margin-bottom: 8px;
 }
 
 table tbody.cards tr td a {
