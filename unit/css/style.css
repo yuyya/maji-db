@@ -360,8 +360,8 @@ table tbody.cards tr {
         outline-offset: -5px;
 }
 
-table tbody.cards tr #icon-table {
-	backround-color: transparent;
+table tbody.cards tr img {
+	background-color: transparent;
 }
 
 table tbody.cards tr td a {
