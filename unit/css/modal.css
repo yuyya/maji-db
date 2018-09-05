@@ -25,11 +25,15 @@
 		margin: 0; padding: 0;
 	}
 
+	.modal-backdrop.in {
+	background: rgba(0, 0, 0, 0.001);
+	}
+
 	.modal-header {
 		border: 0px;
 		display: block;
 		padding: 4px 12px;
-		background-color: rgba(0,0,0,.05);
+		background-color: rgba(0,0,0,0.5);
 		border-bottom: 0px solid #cccccc;
 	}
 
