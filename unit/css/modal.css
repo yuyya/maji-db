@@ -154,7 +154,7 @@
 		background-color: #000;
 		position: relative;
 		overflow: hidden;
-		margin-right:-30px;
+		margin-left:20px;
 	}
 
 	.modal-body .base-unit-view .img-unit img {
