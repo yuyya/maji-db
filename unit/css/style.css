@@ -382,7 +382,7 @@ table tbody.cards tr td {
 table tbody.cards tr td a {
 	font-size: 15px;
 	color: #fff;
-	text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
+	text-shadow: 1px 1px 3px #AB2375, 1px 1px 3px #AB2375;
 }
 
 .news-box {
