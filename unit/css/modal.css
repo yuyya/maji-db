@@ -142,6 +142,8 @@
 		background-image: url(../img/trigger-two.png);
 	}
 
+/* ----------- IMG PNG ------------- */
+
 	.modal-body .base-unit-view .img-unit {
 		width: 250px;
 		height: 370px;
@@ -154,8 +156,10 @@
 
 	.modal-body .base-unit-view .img-unit img {
 		position: absolute;
-		top: -50%;
-  		left: -50%;
+  		height:1000px;
+ 		 top: -300px;
+ 		 left: -400px;
+ 		 margin: auto;
 	}
 
 	.modal-body .base-unit-view .base-tables {
