@@ -353,8 +353,16 @@ td.rarity[rarity="6" i] {
 	background-image: url(../img/rarity/6.png);
 }
 
-.container tbody tr {
-	text-decoration:none;
+.customr {
+	background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
+	padding:0px;
+	outline: 1px solid #7C3462;
+        outline-offset: -5px;
+	margin-bottom: 8px;
+}
+
+.customr td a {
+text-decoration:none
 }
 
 .news-box {
