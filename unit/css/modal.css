@@ -22,7 +22,7 @@
 		border: 0px;
 		display: block;
 		padding: 4px 12px;
-		background-color: #fffdfa;
+		background-color: #000;
 		border-bottom: 2px solid #cccccc;
 	}
 
@@ -173,7 +173,7 @@
 		display:inline;
 	}
 
-	.modal-body .base-unit-view .base-tables ul.nav li .left {
+	.modal-body .base-unit-view .base-tables ul.nav li.left {
 		flex: 1;
 		display:inline;
 		padding-left: 10px;
