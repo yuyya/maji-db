@@ -59,7 +59,7 @@
 	.modal-header .unit-icon {
 		width: 58px;
 		margin: 0; padding: 0;
-		float:left;
+		display: inline-block;
 	}
 
 	.modal-header .unit-icon img {
@@ -97,7 +97,8 @@
 
 	.modal-header h3 {
 		font-weight: 700;
-		float: left;
+		display: inline-block;
+		vertical-align:baseline;
 		margin: 0; padding: 0;
 		margin-bottom: -20px;
 		font-size: 30px;
