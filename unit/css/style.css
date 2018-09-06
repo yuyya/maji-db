@@ -391,8 +391,12 @@ table tbody.cards tr td a {
 
 /* ---------- CARDS BG ------------- */
 
-table tbody.cards tr td img#icon-table {
-	background-color: #000;
+table tbody.cards tr td {
+	background: rgba(0, 0, 0, 0.001);
+}
+
+table tbody.cards tr td div {
+	background: rgba(0, 0, 0, 0.001);
 }
 
 
