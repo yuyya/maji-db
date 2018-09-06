@@ -1,5 +1,4 @@
-
-	.modal.fade .modal-dialog {
+.modal.fade .modal-dialog {
 		width: 960px;
 		height: 500px;
 		padding: 0px;
@@ -9,7 +8,6 @@
    		top: 50%;
    		left: 50%;
   		transform: translate(-50%, -50%);
-		opacity:90%;
 	}
 
 	.modal-content {
@@ -46,13 +44,13 @@
 		background-image: url('../img/modal-table.png');
     		background-repeat: no-repeat;
    		margin-left: -15px;
-		margin-top:8px;
+		margin-top:3px;
    		width: 830px;
   		height: 60px;
 	}
 
 	.modal-header .row {
-		margin-top:-30px;
+		margin-top:-60px;
 }	
 
 	.modal-header .unit-icon {
@@ -543,6 +541,4 @@
 		display: block;
 		font-size: 12px;
 		padding: 6px 12px 6px 6px;
-	}
-
-
+}
