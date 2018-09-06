@@ -23,7 +23,16 @@
 	.modal-content h4,
 	.modal-content h5,
 	.modal-content p {
-		margin: 0; padding: 0;
+	margin: 0; padding: 0;
+	}
+
+	#tablebg {
+		background-image: url('http://i.imgur.com/SAJuu59.png');
+    		background-repeat: no-repeat;
+   		margin-left: -3px;
+		margin-top:0px;
+   		width: 830px;
+  		height: 60px;
 	}
 
 	.modal-backdrop.in {
