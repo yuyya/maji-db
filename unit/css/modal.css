@@ -59,7 +59,7 @@
 	.modal-header .unit-icon {
 		width: 58px;
 		margin: 0; padding: 0;
-		display: inline-block;
+		float:left;
 	}
 
 	.modal-header .unit-icon img {
