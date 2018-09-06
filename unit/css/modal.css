@@ -26,15 +26,6 @@
 	margin: 0; padding: 0;
 	}
 
-	#tablebg {
-		background-image: url('https://github.com/yuyya/maji-db/blob/master/unit/img/modal-table.png');
-    		background-repeat: no-repeat;
-   		margin-left: -3px;
-		margin-top:0px;
-   		width: 830px;
-  		height: 60px;
-	}
-
 	.modal-backdrop.in {
 	background: rgba(0, 0, 0, 0.001);
 	}
@@ -45,10 +36,23 @@
 		padding: 4px 12px;
 		padding-bottom:-15px;
 		margin-left: 30px;
-		margin-top:-60px;
+		margin-top:22px;
 		background-color: rgba(0,0,0,0.1);
 		border-bottom: 0px solid #cccccc;
 	}
+
+	#tablebg {
+		background-image: url('../img/modal-table.png');
+    		background-repeat: no-repeat;
+   		margin-left: -3px;
+		margin-top:0px;
+   		width: 830px;
+  		height: 60px;
+	}
+
+	.modal-header .row {
+		margin-top:-60px;
+}	
 
 	.modal-header .unit-icon {
 		width: 58px;
