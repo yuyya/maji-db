@@ -60,7 +60,7 @@
 		width: 58px;
 		margin: 0; padding: 0;
 		display: inline-block;
-		vertical-align:baseline;
+		vertical-align: text-bottom;
 	}
 
 	.modal-header .unit-icon img {
