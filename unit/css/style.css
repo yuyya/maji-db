@@ -395,8 +395,8 @@ table tbody.cards tr td {
 	background: rgba(0, 0, 0, 0.001);
 }
 
-table tbody.cards tr td img {
-	background: rgba(0, 0, 0, 0.001);
+table tbody.cards tr td .active {
+	background: rgba(0, 0, 0, 0.5);
 }
 
 
