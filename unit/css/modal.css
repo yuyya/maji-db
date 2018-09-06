@@ -97,7 +97,7 @@
 
 	.modal-header h3 {
 		font-weight: 700;
-		display: block;
+		float: left;
 		margin: 0; padding: 0;
 		margin-bottom: -20px;
 		font-size: 30px;
@@ -271,7 +271,7 @@
 /* ----------- SPECIALS TAB ------------- */
 
 	.modal-body .base-unit-view .base-tables .base-skill {
-		height:140px;
+		height:145px;
 		margin: 0 0 5px 0;
 		border: 1px solid #78305B;
 		background-color: #551C3F;
