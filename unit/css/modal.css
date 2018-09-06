@@ -36,7 +36,7 @@
 		padding: 4px 12px;
 		padding-bottom:-15px;
 		margin-left: 30px;
-		margin-top:20px;
+		margin-top:22px;
 		background-color: rgba(0,0,0,0.1);
 		border-bottom: 0px solid #cccccc;
 	}
@@ -188,7 +188,7 @@
 	}
 
 	.modal-body .base-unit-view .base-tables .tab-content {
-		height: 320px;
+		height: 322px;
 		overflow-y: auto;
 		background-color: #000;
 		border-top: 1px solid #transparent;
