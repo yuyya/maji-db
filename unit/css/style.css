@@ -1,5 +1,5 @@
 body{
-	color: #323232;
+	color: #C585D5;
 	background-color: #e9eaee;
 	background-position: left top;
 	background-size: 100%;
@@ -395,7 +395,7 @@ table tbody.cards tr td {
 	background: rgba(0, 0, 0, 0.001);
 }
 
-table tbody.cards tr td .toggle-six {
+table tbody.cards tr .toggle-six {
 	background: rgba(0, 0, 0, 0.5);
 }
 
