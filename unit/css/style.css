@@ -402,17 +402,17 @@ table tbody.cards tr td img#icon-table {
 	color:#000;
 	background-color:#AB2375;
 	padding:8px;
-	outline: 1px solid #000;
+	outline: 2px solid #000;
         outline-offset: -10px;
-	border-top-left-radius:10px;
-	border-bottom-right-radius:10px;
+	border-top-left-radius:20px;
+	border-bottom-right-radius:20px;
 }
 
-.container .base-content .row .col-md-10 .col-md-offset-2 .col-md-2 .list-group-item {
+.container .base-content .row .col-md-10 .col-md-offset-2 .list-group .col-md-2 .list-group-item {
 	color:#000;
 	background-color:#fff;
 	padding:8px;
-	outline: 1px solid #000;
+	outline: 2px solid #000;
         outline-offset: -10px;
 	border-top-left-radius:10px;
 	border-bottom-right-radius:10px;
