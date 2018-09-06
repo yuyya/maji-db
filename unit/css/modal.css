@@ -9,6 +9,7 @@
    		top: 50%;
    		left: 50%;
   		transform: translate(-50%, -50%);
+		opacity:90%;
 	}
 
 	.modal-content {
@@ -45,7 +46,7 @@
 		background-image: url('../img/modal-table.png');
     		background-repeat: no-repeat;
    		margin-left: -15px;
-		margin-top:3px;
+		margin-top:8px;
    		width: 830px;
   		height: 60px;
 	}
@@ -95,6 +96,7 @@
 		font-weight: 700;
 		display: inline-block;
 		margin: 0; padding: 0;
+		margin-top: 30px;
 		font-size: 30px;
 		color: #fff;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
