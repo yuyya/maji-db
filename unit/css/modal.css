@@ -29,6 +29,8 @@
 	background: rgba(0, 0, 0, 0.001);
 	}
 
+/* ----------- HEADER STUFF ------------- */
+
 	.modal-header {
 		border: 0px;
 		display: block;
@@ -91,9 +93,11 @@
 		background-color: #323232;
 	}
 
+/* ----------- HEADER TITLE ------------- */
+
 	.modal-header h3 {
 		font-weight: 700;
-		display: inline-block;
+		display: block;
 		margin: 0; padding: 0;
 		margin-bottom: -20px;
 		font-size: 30px;
@@ -201,6 +205,8 @@
 		box-shadow: 0 0 0px 0px #c7a664;
 	}
 
+/* ----------- TABLES CONTENT ------------- */
+
 	.modal-body .base-unit-view .base-tables .tab-content {
 		height: 322px;
 		overflow-y: auto;
@@ -212,6 +218,8 @@
 		border-bottom-left-radius: 5px;
 		border-bottom-right-radius: 5px;
 	}
+
+/* ----------- TABLES NAVIGATION ------------- */
 
 	.modal-body .base-unit-view .base-tables ul.nav {
 		display: flex;
@@ -260,8 +268,10 @@
 		padding: 12px;
 	}
 
+/* ----------- SPECIALS TAB ------------- */
+
 	.modal-body .base-unit-view .base-tables .base-skill {
-		height:120px;
+		height:140px;
 		margin: 0 0 5px 0;
 		border: 1px solid #78305B;
 		background-color: #551C3F;
@@ -313,6 +323,8 @@
 		font-size: 12px;
 		text-shadow:2px 2px #000;
 	}
+
+/* ----------- AUTO SKILL TAB ------------- */
 
 	.modal-body .base-unit-view .base-tables .base-ability {
 		margin: 0 0 12px 0;
@@ -374,6 +386,8 @@
 		text-shadow:2px 2px #000;
 	}
 
+/* ----------- STATS TAB ------------- */
+
 	.modal-body .base-unit-view .base-tables table {
 		font-size: 12px;
 		margin: 0;
@@ -424,7 +438,7 @@
 		background-color: #faf4fb
 	}
 
-
+/* ----------- CHARA LINK TAB ------------- */
 
 	.modal-body .base-unit-view .base-tables .base-gear {
 		display: flex;
