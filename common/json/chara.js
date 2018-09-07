@@ -22,7 +22,8 @@ window.chara=[
           "auto3": "",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Heart Type DEF +15%"
+          "lead": "Heart Type DEF +15%",
+          "rank": "G"
       },
       {
           "id": "10023",
@@ -47,7 +48,8 @@ window.chara=[
           "auto3": "",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Yang Type ATK +15%"
+          "lead": "Yang Type ATK +15%",
+          "rank": "G"
       },
       {
           "id": "10035",
@@ -72,7 +74,8 @@ window.chara=[
           "auto3": "",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Heart Type ATK +15%"
+          "lead": "Heart Type ATK +15%",
+          "rank": "G"
       },
       {
           "id": "10037",
@@ -97,7 +100,8 @@ window.chara=[
           "auto3": "",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Body Type SP +15%"
+          "lead": "Body Type SP +15%",
+          "rank": "G"
       },
       {
           "id": "10043",
@@ -122,7 +126,8 @@ window.chara=[
           "auto3": "",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Yin Type ATK +15%"
+          "lead": "Yin Type ATK +15%",
+          "rank": "G"
       },
       {
           "id": "10044",
@@ -147,7 +152,8 @@ window.chara=[
           "auto3": "",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Dex Type DEF +15%"
+          "lead": "Dex Type DEF +15%",
+          "rank": "G"
       },
       {
           "id": "10045",
@@ -172,7 +178,8 @@ window.chara=[
           "auto3": "+50% SP to all allies for 2 turns upon death",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Yang Type SP +15%"
+          "lead": "Yang Type SP +15%",
+          "rank": "G"
       },
       {
           "id": "10046",
@@ -197,7 +204,8 @@ window.chara=[
           "auto3": "+50% Heart Damage when for 2 turns when HP reach below 30% once",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Heart Type SP +15%"
+          "lead": "Heart Type SP +15%",
+          "rank": "G"
       },
       {
           "id": "10047",
@@ -222,7 +230,8 @@ window.chara=[
           "auto3": "",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Yang Type ATK +15%"
+          "lead": "Yang Type ATK +15%",
+          "rank": "G"
       },
       {
           "id": "10048",
@@ -247,7 +256,8 @@ window.chara=[
           "auto3": "+50% HP once when HP reach below 50%",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Body Type DEF +15%"
+          "lead": "Body Type DEF +15%",
+          "rank": "G"
       },
       {
           "id": "10050",
@@ -272,7 +282,8 @@ window.chara=[
           "auto3": "+50% SP for 2 turns at the start of the WAVE",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Dex Type SP +15%"
+          "lead": "Dex Type SP +15%",
+          "rank": "G"
       },
       {
           "id": "10051",
@@ -297,7 +308,8 @@ window.chara=[
           "auto3": "",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Yin Type ATK +15%"
+          "lead": "Yin Type ATK +15%",
+          "rank": "G"
       }, 
       {
           "id": "10052",
@@ -322,7 +334,34 @@ window.chara=[
           "auto3": "",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Dex Type ATKT +15%"
+          "lead": "Dex Type ATK +15%",
+          "rank": "G"
+      },
+      {
+          "id": "10053",
+          "name": "Elder Toguro, Brutal Sweep",
+          "type": "yang",
+          "class": "SP",
+          "rare": "5",
+          "power": "14999",
+          "hp": "7484",
+          "atk": "1496",
+          "sp": "5996",
+          "def": "3728",
+          "spd": "375",
+          "skill1name": "Mimicry",
+          "skill1": "Own column +x% SP. Yang +x% Damage. +x% HP regen",
+          "skill1cd":  "=",
+          "skill2name": "Weaponized Body",
+          "skill2": "Deal x% SP to all enemies",
+          "skill2cd":  "100",
+          "auto1": "+25% SP",
+          "auto2": "+100% Stun Resistance",
+          "auto3": "Immortal Body",
+          "auto4": "+20% Damage",
+          "auto5": "+20% Damage Reduction",
+          "lead": "Yang Type SP +15%",
+          "rank": "SSS"
       },
       {
           "id": "10054",
@@ -347,7 +386,34 @@ window.chara=[
           "auto3": "30% chance for +30% ATK for 2 turns after using a Special",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Body Type ATK +15%"
+          "lead": "Body Type ATK +15%",
+          "rank": "G"
+      },
+      {
+          "id": "10055",
+          "name": "Younger Toguro, Leaking Evil",
+          "type": "yin",
+          "class": "ATK",
+          "rare": "5",
+          "power": "15066",
+          "hp": "6024",
+          "atk": "7908",
+          "sp": "2624",
+          "def": "1496",
+          "spd": "268",
+          "skill1name": "Shidan",
+          "skill1": "Deal x% ATK to target row.",
+          "skill1cd":  "=",
+          "skill2name": "Threat of a Superior Class",
+          "skill2": "Deal x% ATK to all enemies",
+          "skill2cd":  "100",
+          "auto1": "+25% Advantage Damage",
+          "auto2": "+100% Poison Resistance",
+          "auto3": "100% Surge",
+          "auto4": "+20% Damage",
+          "auto5": "+20% Damage Reduction",
+          "lead": "Yang Type SP +15%",
+          "rank": "SSS"
       },
       {
           "id": "10127",
@@ -372,6 +438,7 @@ window.chara=[
           "auto3": "",
           "auto4": "+20% Damage",
           "auto5": "+20% Damage Reduction",
-          "lead": "Yin Type SP +15%"
+          "lead": "Yin Type SP +15%",
+          "rank": "G"
       },  
 ] 
