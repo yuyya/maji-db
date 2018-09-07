@@ -395,11 +395,11 @@ table tbody.cards tr td {
 	background: rgba(0, 0, 0, 0.001);
 }
 
-table .order-column {
+table.dataTable.order-column {
 	background: rgba(0, 0, 0, 0.5);
 }
 
-table .hover {
+table.dataTable.hover {
 	background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
 	border-radius:10px;
 	padding-bottom:8px;
