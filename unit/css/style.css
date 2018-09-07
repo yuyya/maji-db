@@ -395,8 +395,16 @@ table tbody.cards tr td {
 	background: rgba(0, 0, 0, 0.001);
 }
 
-table tbody.cards tr .toggle-six {
+table order-column {
 	background: rgba(0, 0, 0, 0.5);
+}
+
+table hover {
+	background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
+	border-radius:10px;
+	padding-bottom:8px;
+	outline: 1px solid #7C3462;
+        outline-offset: -5px;
 }
 
 
