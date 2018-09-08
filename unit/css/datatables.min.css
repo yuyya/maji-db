@@ -30,7 +30,7 @@ table.dataTable tfoot th,table.dataTable tfoot td {
   border-top:1px solid black
 }
 
-table.dataTable textarea {
+table.dataTable input, select {
 	color: #C585D5;
 	background-color: #331328;
 	border: 1px solid #7C3462;
@@ -126,9 +126,9 @@ table.dataTable,table.dataTable th,table.dataTable td{-webkit-box-sizing:content
   text-shadow:2px 2px #000;
   background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
   border:1px solid #331328;
-  padding:8px !important;
+  padding-bottom:8px !important;
   outline: 1px solid #7C3462;
-  outline-offset: -3px;
+  outline-offset: -5px;
   cursor: pointer;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current,.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
@@ -138,9 +138,9 @@ table.dataTable,table.dataTable th,table.dataTable td{-webkit-box-sizing:content
   text-shadow:2px 2px #000;
   background: linear-gradient(to bottom, #020305 50%,#200B1A 51%);
   border:1px solid #331328;
-  padding:8px !important;
+  padding-bottom:8px !important;
   outline: 1px solid #7C3462;
-  outline-offset: -3px;
+  outline-offset: -5px;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled,.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
@@ -149,10 +149,10 @@ table.dataTable,table.dataTable th,table.dataTable td{-webkit-box-sizing:content
   font-weight: bold;
   text-shadow:2px 2px #000;
   background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
-	border:1px solid #331328;
-	padding:8px !important;
-	outline: 1px solid #7C3462;
-  outline-offset: -3px;
+  border:1px solid #331328;
+  padding-bottom:8px !important;
+  outline: 1px solid #7C3462;
+  outline-offset: -5px;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover, .dataTables_wrapper .dataTables_paginate .paginate_button:active {
