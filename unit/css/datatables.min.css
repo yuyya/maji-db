@@ -30,12 +30,6 @@ table.dataTable tfoot th,table.dataTable tfoot td {
   border-top:1px solid black
 }
 
-.dataTables_wrapper .dataTables_filter input, .dataTables_wrapper .dataTables_length option {
-	color: #C585D5;
-	background-color: #331328;
-	border: 1px solid #7C3462 !important;
-}
-
 table.dataTable thead .sorting,table.dataTable thead .sorting_asc,table.dataTable thead .sorting_desc{cursor:pointer;*cursor:hand}
 table.dataTable thead .sorting,table.dataTable thead .sorting_asc,table.dataTable thead .sorting_desc,table.dataTable thead .sorting_asc_disabled,table.dataTable thead .sorting_desc_disabled{background-repeat:no-repeat;background-position:center right}
 table.dataTable thead .sorting{background-image:url("DataTables-1.10.13/images/sort_both.png")}
@@ -108,6 +102,12 @@ table.dataTable,table.dataTable th,table.dataTable td{-webkit-box-sizing:content
 .dataTables_wrapper .dataTables_filter input{margin-left:0.5em}
 .dataTables_wrapper .dataTables_info{clear:both;float:left;padding-top:0.755em}
 
+.dataTables_wrapper .dataTables_filter input, .dataTables_wrapper .dataTables_length select option {
+	color: #C585D5;
+	background-color: #331328;
+	border: 1px solid #7C3462 !important;
+}
+
 .dataTables_wrapper .dataTables_paginate {
   float:right;
   text-align:right;
@@ -131,6 +131,9 @@ table.dataTable,table.dataTable th,table.dataTable td{-webkit-box-sizing:content
   outline-offset: -5px;
   cursor: pointer;
 }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button a, hover {padding:5px;}
+
 .dataTables_wrapper .dataTables_paginate .paginate_button.current,.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
   color: #C585D5;
   font-size: 20px;
