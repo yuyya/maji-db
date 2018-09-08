@@ -102,11 +102,15 @@ table.dataTable,table.dataTable th,table.dataTable td{-webkit-box-sizing:content
 .dataTables_wrapper .dataTables_filter input{margin-left:0.5em}
 .dataTables_wrapper .dataTables_info{clear:both;float:left;padding-top:0.755em}
 
-.dataTables_wrapper .dataTables_filter input, .dataTables_wrapper .dataTables_length select, .dataTables_wrapper .dataTables_length select option {
+.dataTables_wrapper .dataTables_filter input, .dataTables_wrapper select, .dataTables_wrapper .dataTables_length select option {
+	text-decoration:none;
 	color: #C585D5;
 	background-color: #331328;
 	border: 1px solid #7C3462 !important;
 }
+
+select option:checked, select option:hover { background-color: #AB2375;}
+select:focus > option:checked { background-color: #AB2375 !important; }
 
 .dataTables_wrapper .dataTables_paginate {
   float:right;
@@ -126,13 +130,13 @@ table.dataTable,table.dataTable th,table.dataTable td{-webkit-box-sizing:content
   text-shadow:2px 2px #000;
   background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
   border:1px solid #331328;
-  padding-bottom:1px !important;
+  padding-top: 5px !important;
   outline: 1px solid #7C3462;
   outline-offset: -5px;
   cursor: pointer;
 }
 
-.dataTables_wrapper .dataTables_paginate .paginate_button a, hover {padding:5px;}
+.dataTables_wrapper .dataTables_paginate .paginate_button a, hover {padding-bottom:3px;}
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.current,.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
   color: #C585D5;
