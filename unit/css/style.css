@@ -69,7 +69,7 @@ body{
 }
 
 .base-header {
-	color: #323232;
+	color: #C585D5;
 	overflow: hidden;
 	margin: 24px 0 0 0;
 	padding: 36px 0 0 0;
@@ -388,25 +388,6 @@ table tbody.cards tr td a {
 	color: #fff;
 	text-shadow: 1px 1px 3px #AB2375, 1px 1px 3px #AB2375;
 }
-
-/* ---------- CARDS BG ------------- */
-
-table tbody.cards tr td {
-	background: rgba(0, 0, 0, 0.001);
-}
-
-table.dataTable.order-column {
-	background: rgba(0, 0, 0, 0.5);
-}
-
-table.dataTable.hover {
-	background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
-	border-radius:10px;
-	padding-bottom:8px;
-	outline: 1px solid #7C3462;
-        outline-offset: -5px;
-}
-
 
 /* ---------- FILTER TAGS ------------- */
 
