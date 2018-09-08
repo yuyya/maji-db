@@ -12,6 +12,9 @@ body{
 	display: none;
 }
 
+::selection { background-color: #AB2375; 
+}
+
 .slider {
     -webkit-appearance: none;
     width: 100%;
