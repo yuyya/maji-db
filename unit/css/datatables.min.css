@@ -131,7 +131,7 @@ select:focus > option:checked { background-color: #AB2375 !important; }
   text-shadow:2px 2px #000;
   background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
   border:1px solid #331328;
-  padding-top: 5px !important;
+  padding-top: 2px !important;
   outline: 1px solid #7C3462;
   outline-offset: -5px;
   cursor: pointer;
