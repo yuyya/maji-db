@@ -101,9 +101,15 @@ body{
 	box-shadow: 0 0 60px rgba(0,0,0,0.1);
 }
 
-.base-header a {
+.base-header a, a:hover {
 	color: #5694ff;
-	text-decoration: none;
+	text-decoration: none !important;
+}
+
+.base-header textarea {
+	color: #C585D5;
+	background-color: #331328;
+	border: 1px solid #7C3462;
 }
 
 .base-menu {
