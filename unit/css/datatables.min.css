@@ -102,9 +102,9 @@ table.dataTable,table.dataTable th,table.dataTable td{-webkit-box-sizing:content
 .dataTables_wrapper .dataTables_filter input{margin-left:0.5em}
 .dataTables_wrapper .dataTables_info{clear:both;float:left;padding-top:0.755em}
 
-.dataTables_wrapper .dataTables_filter input, .dataTables_wrapper select, .dataTables_wrapper .dataTables_length select option {
+.dataTables_wrapper .dataTables_filter input, .dataTables_wrapper .dataTables_length select, .dataTables_wrapper .dataTables_length select option {
 	appearance: none;
-	text-decoration:none;
+	font-weight:normal;
 	color: #C585D5;
 	background-color: #331328;
 	border: 1px solid #7C3462 !important;
