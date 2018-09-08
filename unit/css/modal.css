@@ -98,6 +98,7 @@
 /* ----------- HEADER TITLE ------------- */
 
 	.modal-header h3 {
+		width:750px;
 		font-weight: 700;
 		display: inline-block;
 		vertical-align: 8px;
