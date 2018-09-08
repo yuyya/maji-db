@@ -103,7 +103,7 @@ body{
 
 .base-header a {
 	color: #5694ff;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .base-menu {
