@@ -1,7 +1,9 @@
 body{
+	width:100%;
+	height: 100vh;
 	color: #C585D5;
-	background-position: fixed bottom;
 	background-image: url(../img/db-bg.jpg);
+	background-position: fixed bottom;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	font-family: 'Arial', sans-serif;
@@ -175,6 +177,8 @@ body{
     margin: 0px 0 24px 0; padding: 36px;
     opacity:0.8;
 }
+
+.base-content .content { margin:0;}
 
 .base-content .alert {
 	font-size: 12px;
