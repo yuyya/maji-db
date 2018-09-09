@@ -178,7 +178,7 @@ body{
     opacity:0.8;
 }
 
-.base-content .content { margin:0;}
+.base-content .content { margin:0; opacity:1;}
 
 .base-content .alert {
 	font-size: 12px;
