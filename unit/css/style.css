@@ -4,7 +4,7 @@ body{
 	color: #C585D5;
 	background-image: url(../img/db-bg.jpg);
 	background-position: fixed bottom;
-	background-size: 100% 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Arial', sans-serif;
 }
@@ -94,6 +94,7 @@ body{
 .base-header {
 	color: #C585D5;
 	overflow: hidden;
+	top:760px;
 	margin: 24px 0 0 0;
 	padding: 36px 0 0 0;
 	border-radius: 12px 12px 0 0;
@@ -172,13 +173,10 @@ body{
 }
 
 .base-content {
-    background: #110F12;
+    background: rgba(17, 15, 18, 0.8);
     box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
     margin: 0px 0 24px 0; padding: 36px;
-    opacity:0.8;
 }
-
-.base-content .content { margin:0; opacity:1;}
 
 .base-content .alert {
 	font-size: 12px;
