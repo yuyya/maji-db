@@ -35,10 +35,12 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 }
 
 .dbfooter {
+	color: #fff;
+	text-align:center;
 	width: 1224px;
 	height: 96px;
 	position: relative;
-	margin: auto;
+	margin:auto;
 	background-position: bottom;
 	background-image: url(../img/db-footer.png);
 	background-repeat: no-repeat;
