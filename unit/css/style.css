@@ -518,6 +518,7 @@ table tbody.cards tr td a {
 	outline: 1px solid #000;
 	outline-offset: -5px;
 	border-radius:5px;
+	border: 0px;
 }
 
 .row #filter-attribute .list-group .col-md-1, .row #filter-rare .list-group .col-md-1 {
