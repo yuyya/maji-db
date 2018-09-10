@@ -121,6 +121,7 @@ body{
 	display: inline-block;
 	padding: 4px 36px;
 	box-shadow: 0 0 60px rgba(0,0,0,0.1);
+	float: right;
 }
 
 .base-header a, a:hover {
@@ -174,6 +175,7 @@ body{
     background: rgba(17, 15, 18, 0.8);
     box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
     margin: 0px 0 24px 0; padding: 36px;
+    margin-top: -100px;
 }
 
 .base-content .alert {
