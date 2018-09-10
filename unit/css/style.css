@@ -18,6 +18,7 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position:fixed;
+	overflow:auto;
 	top:0;
    	bottom:0;
   	right:0;
@@ -148,22 +149,36 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 
 .base-menu ul {
 	list-style: none;
-	margin: 0 30px; padding: 0;
 }
 
 .base-menu ul li {
-	margin: 0 12px 0 0; padding: 0;
 	display: inline-block;
+	width: 140px;
+	height: 100%;
+	transform: skew(165deg);
+	outline: 1px #65224D solid;
+	outline-offset: -5px;
+	margin-right:3px;
+	transition: all .3s ease;
 }
 
 .base-menu ul li a {
 	display: block;
 	color: #ffffff;
-	font-size: 11px;
+	font-size: 15px;
 	text-decoration: none;
-	transition: all .3s ease;
 	text-transform: uppercase;
 	margin: 0; padding: 4px 12px;
+	text-shadow: 1px 1px 3px #AB2375, 1px 1px 3px #AB2375;
+}
+
+.base-menu ul li a:hover {
+        width: 140px;
+	height: 100%;
+	transform: skew(165deg);
+	background: #65224D;
+	outline: 1px #AB2375 solid;
+	outline-offset: -5px;
 }
 
 .base-menu ul li a i {
