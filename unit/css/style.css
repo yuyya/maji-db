@@ -1,9 +1,10 @@
 body{
-	width:100%;
+	width: 100%;
+	height: 100%;
 	color: #C585D5;
 	background-image: url(../img/db-bg.jpg);
 	background-position: fixed bottom;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	font-family: 'Arial', sans-serif;
 }
@@ -16,10 +17,10 @@ body{
 
 .dbheader {
 	width: 100%;
-	height: 900px;
-	margin: 0 auto;
+	height: 550px;
+	margin: 0 auto -300px auto;
 	background-position: top;
-	background-image: url(../img/db-header.png);
+	background-image: url(../img/db-headers.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
