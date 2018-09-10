@@ -520,6 +520,10 @@ table tbody.cards tr td a {
 	border-radius:5px;
 }
 
+.row #filter-attribute .list-group .list-group-item, .row #filter-rare .list-group .list-group-item .col-md-4 {
+	background-color:#AB2375;
+	}
+
 .news-box {
 	cursor: pointer;
 	display: block;
