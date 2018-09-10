@@ -194,8 +194,8 @@
 
 	.modal-body .base-unit-view .img-unit img {
 		position: absolute;
-  		height:1000px;
- 		top: -284px;
+  		width:1000px;
+ 		top: -316px;
  		left: -376px;
  		margin: auto;
 		opacity: 50%;
