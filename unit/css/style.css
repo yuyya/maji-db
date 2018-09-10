@@ -18,7 +18,8 @@ body, html {   height: 100% }
 	background-image: url(../img/db-bg.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: fixed;
+	z-index: -99999;
 }
 
 .dbheader {
