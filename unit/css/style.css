@@ -139,11 +139,11 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	transform: skew(165deg);
 	outline: 1px #AB2375 solid;
 	outline-offset: -8px;
-	padding: 0px 8px;
 	position:relative;
 	float:left;
 	margin-left: 100px;
 	margin-top:-200px;
+	margin-bottom:100px;
 } 
 
 .base-header .reddit {
@@ -154,16 +154,16 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	transform: skew(165deg);
 	outline: 1px #AB2375 solid;
 	outline-offset: -8px;
-	padding: 0px 8px;
 	position:relative;
 	float:right;
 	margin-right: 100px;
 	margin-top:-200px;
+	margin-bottom:100px;
 } 
 
 .base-header p {
 	color:#fff;
-	padding-top: 8px;
+	padding-top: 10px;
 	font-size:15px;
 	font-weight: bold;
 	text-shadow: 2px 2px #000;
