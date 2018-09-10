@@ -45,7 +45,7 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	padding-top:60px;
 	position: relative;
 	margin-left:-80px;
-	margin-bottom:-20px;
+	margin-bottom:-40px;
 	background-position: bottom;
 	background-image: url(../img/db-footer.png);
 	background-repeat: no-repeat;
