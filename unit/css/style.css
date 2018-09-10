@@ -1,7 +1,9 @@
 body{
 	height:100%;
 	color: #C585D5;
-	background-image: url(../img/db-bg.jpg) fixed bottom;
+	background-image: url(../img/db-bg.jpg);
+	background-position:fixed;
+	bottom: 0px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Arial', sans-serif;
@@ -12,15 +14,6 @@ body{
 }
 
 ::selection { background-color: #AB2375; }
-
-.dbheader {
-	width: 100%;
-	height: 550px;
-	background-position: top;
-	background-image: url(../img/db-header.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
 
 .dbfooter {
 	width: 1224px;
@@ -89,12 +82,13 @@ body{
 }
 
 .base-header {
-	color: #C585D5;
 	overflow: hidden;
-	margin-top:760px;
-	margin: 24px 0 0 0;
-	padding: 36px 0 0 0;
-	border-radius: 12px 12px 0 0;
+	width: 100%;
+	height: 550px;
+	background-position: top;
+	background-image: url(../img/db-headers.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .base-header h1,
