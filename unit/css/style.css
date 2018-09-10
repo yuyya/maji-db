@@ -11,8 +11,10 @@ body{
 ::selection { background-color: #AB2375; }
 
 .dbbg {
-	background-image: url(../img/db-bg.jpg) no-repeat;
-	background-position: bottom;
+	width:100%;
+	background-image: url(../img/db-bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 	background-size: cover;
 	z-index:-99999999;
 }
@@ -93,7 +95,7 @@ body{
 }
 
 .base-header {
-	margin-top:-220px;
+	margin-top:-250px;
 }
 
 .base-header h1,
@@ -172,7 +174,6 @@ body{
     background: rgba(17, 15, 18, 0.8);
     box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
     margin: 0px 0 24px 0; padding: 36px;
-	margin-top:-220px;
 }
 
 .base-content .alert {
