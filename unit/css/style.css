@@ -144,7 +144,7 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	float:left;
 	margin-left: 100px;
 	margin-top:-200px;
-	margin-bottom:250px;
+	margin-bottom:255px;
 } 
 
 .base-header .reddit {
@@ -160,7 +160,7 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	float:right;
 	margin-right: 100px;
 	margin-top:-200px;
-	margin-bottom:250px;
+	margin-bottom:255px;
 } 
 
 .base-header p {
@@ -520,8 +520,8 @@ table tbody.cards tr td a {
 	border-radius:5px;
 }
 
-.row #filter-attribute .list-group .list-group-item, .row #filter-rare .list-group .list-group-item .col-md-4 {
-	background-color:#AB2375;
+.row #filter-attribute .list-group .list-group-item, .row #filter-rare .yellow {
+	background-color:#FFF45C;
 	}
 
 .news-box {
