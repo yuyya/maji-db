@@ -10,6 +10,8 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	display: none;
 }
 
+hr {border-bottom: 1px solid #66224D}
+
 ::selection { background-color: #AB2375; }
 
 /* ---------- HEADER + BG + FOOTER ------------- */
@@ -548,7 +550,7 @@ table tbody.cards tr td a {
 	flex: 100%;
 	background-size: cover;
 	width: 100%; height: 96px;
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 1px solid #66224D;
 }
 
 .news-box .base {
