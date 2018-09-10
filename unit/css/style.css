@@ -12,6 +12,8 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 
 ::selection { background-color: #AB2375; }
 
+/* ---------- HEADER + BG + FOOTER ------------- */
+
 .dbbg {
 	width:100%;
 	background-image: url(../img/db-bg.jpg);
@@ -43,7 +45,7 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	padding-top:60px;
 	position: relative;
 	margin-left:-80px;
-	margin-bottom:-80px;
+	margin-bottom:-30px;
 	background-position: bottom;
 	background-image: url(../img/db-footer.png);
 	background-repeat: no-repeat;
@@ -127,6 +129,8 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	color: #ffffff;
 }
 
+/* ---------- DISCORD + REDDIT LINKS ------------- */
+
 .base-header .discord {
 	width: 310px;
 	height: 43px;
@@ -137,7 +141,9 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	outline-offset: -8px;
 	padding: 0px 8px;
 	position:relative;
+	float:left;
 	margin-left: 180px;
+	margin-bottom:300px;
 } 
 
 .base-header .reddit {
@@ -150,13 +156,18 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	outline-offset: -8px;
 	padding: 0px 8px;
 	position:relative;
+	float:right;
 	margin-right: 180px;
+	margin-bottom:300px;
 } 
 
 .base-header p {
 	color:#fff;
+	padding-top: 8px;
 	font-size:15px;
+	font-weight: bold;
 	text-shadow: 2px 2px #000;
+	transform: skew(-165deg);
 }
 
 .base-header a, a:hover {
