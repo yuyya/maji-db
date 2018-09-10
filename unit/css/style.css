@@ -520,7 +520,7 @@ table tbody.cards tr td a {
 	border-radius:5px;
 }
 
-.row #filter-attribute .list-group .list-group-item, .row #filter-rare .yellow {
+.row #filter-rare.yellow {
 	background-color:#FFF45C;
 	}
 
