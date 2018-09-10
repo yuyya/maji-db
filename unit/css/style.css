@@ -1,12 +1,7 @@
 body{
-	height:100%;
 	color: #C585D5;
-	background-image: url(../img/db-bg.jpg);
-	background-position:fixed;
-	bottom: 0px;
-	background-repeat: no-repeat;
-	background-size: cover;
 	font-family: 'Arial', sans-serif;
+	text-decoration:none;
 }
 
 ::-webkit-scrollbar {
@@ -14,6 +9,16 @@ body{
 }
 
 ::selection { background-color: #AB2375; }
+
+.dbbg {
+	height:100%;
+	color: #C585D5;
+	background-image: url(../img/db-bg.jpg);
+	background-position:fixed;
+	bottom: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .dbfooter {
 	width: 1224px;
@@ -82,7 +87,6 @@ body{
 }
 
 .base-header {
-	overflow: hidden;
 	width: 100%;
 	height: 550px;
 	background-position: top;
