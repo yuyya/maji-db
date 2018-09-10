@@ -47,6 +47,7 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	background-position: bottom;
 	background-image: url(../img/db-footer.png);
 	background-repeat: no-repeat;
+	text-shadow: 2px 2px #AB2375;
 }
 
 .slider {
