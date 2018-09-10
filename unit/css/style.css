@@ -40,10 +40,10 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	width: 1224px;
 	height: 96px;
 	margin:auto;
-	padding-top:50px;
+	padding-top:60px;
 	position: relative;
 	margin-left:-80px;
-	margin-bottom:-50px;
+	margin-bottom:-80px;
 	background-position: bottom;
 	background-image: url(../img/db-footer.png);
 	background-repeat: no-repeat;
@@ -127,17 +127,40 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	color: #ffffff;
 }
 
+.base-header .discord {
+	width: 310px;
+	height: 43px;
+	text-align:center;
+	background: #65224D;
+	transform: skew(165deg);
+	outline: 1px #AB2375 solid;
+	outline-offset: -8px;
+	padding: 0px 8px;
+	position:relative;
+	margin-left: 180px;
+} 
+
+.base-header .reddit {
+	width: 310px;
+	height: 43px;
+	text-align:center;
+	background: #65224D;
+	transform: skew(165deg);
+	outline: 1px #AB2375 solid;
+	outline-offset: -8px;
+	padding: 0px 8px;
+	position:relative;
+	margin-right: 180px;
+} 
+
 .base-header p {
-	border-radius: 12px;
-	background-color: #ffffff;
-	display: inline-block;
-	padding: 4px 36px;
-	box-shadow: 0 0 60px rgba(0,0,0,0.1);
-	margin-right: 200px;
+	color:#fff;
+	font-size:15px;
+	text-shadow: 2px 2px #000;
 }
 
 .base-header a, a:hover {
-	color: #5694ff;
+	color: #C585D5;
 	text-decoration: none !important;
 }
 
