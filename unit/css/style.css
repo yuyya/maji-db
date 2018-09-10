@@ -1,8 +1,9 @@
 body{
 	height:100%;
 	color: #C585D5;
-	background-image: url(../img/db-bg.jpg) no-repeat bottom center fixed;
+	background-image: url(../img/db-bg.jpg);
 	background-position: fixed bottom;
+	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Arial', sans-serif;
 }
