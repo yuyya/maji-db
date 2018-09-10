@@ -39,8 +39,11 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	text-align:center;
 	width: 1224px;
 	height: 96px;
-	position: relative;
 	margin:auto;
+	padding:20px;
+	position: relative;
+	margin-left:-80px;
+	margin-bottom:-50px;
 	background-position: bottom;
 	background-image: url(../img/db-footer.png);
 	background-repeat: no-repeat;
