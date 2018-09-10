@@ -142,8 +142,8 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	padding: 0px 8px;
 	position:relative;
 	float:left;
-	margin-left: 180px;
-	margin-top:-300px;
+	margin-left: 100px;
+	margin-top:-200px;
 } 
 
 .base-header .reddit {
@@ -157,8 +157,8 @@ body, html { margin:0; padding:0; height:100%; width:100%; }
 	padding: 0px 8px;
 	position:relative;
 	float:right;
-	margin-right: 180px;
-	margin-top:-300px;
+	margin-right: 100px;
+	margin-top:-200px;
 } 
 
 .base-header p {
