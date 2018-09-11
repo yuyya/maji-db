@@ -642,7 +642,7 @@
 		width: 25%;
 		margin-top:15px;
 		display: inline;
-		vertical-align: 3px;
+		vertical-align: 40px;
 	}
 	
 	.modal-body .base-unit-view .img-unit {
@@ -663,21 +663,22 @@
  		left: -376px;
  		margin: auto;
 		opacity: 50%;
-		vertical-align: 3px;
+		vertical-align: 40px;
 	}
 	
 	.modal-header h3 {
 		font-weight: 700;
 		vertical-align: 8px;
 		margin: 0; padding: 0;
-		font-size: 15px;
+		font-size: 13px;
 		color: #fff;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
 		margin-left: 0px;
 		line-height:16px;
 		word-wrap: normal;
 		display: inline;
-		vertical-align: 3px;
+		width:70%;
+		vertical-align: 40px;
 	}
 	
 	.modal-header .close {
