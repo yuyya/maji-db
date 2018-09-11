@@ -111,7 +111,9 @@ hr {border-bottom: 1px solid #66224D}
 }
 
 .base-header {
-	margin-top:-27vh;
+	text-decoration:none;
+	top:0px;
+	margin:auto;
 }
 
 .base-header h1,
@@ -145,8 +147,7 @@ hr {border-bottom: 1px solid #66224D}
 	position:relative;
 	float:left;
 	margin-left: 100px;
-	margin-top:-22%;
-	margin-bottom:24%;
+	margin-top:10%;
 } 
 
 .base-header .reddit {
@@ -161,8 +162,7 @@ hr {border-bottom: 1px solid #66224D}
 	position:relative;
 	float:right;
 	margin-right: 100px;
-	margin-top:-22%;
-	margin-bottom:24%;
+	margin-top:10%;
 } 
 
 .base-header p {
