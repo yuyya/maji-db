@@ -634,3 +634,96 @@ table tbody.cards tr td a {
 	font-size: 12px;
 	margin: 0; padding: 0;
 }
+
+
+/* ------------------------------ RESOLUTION FIX: MOBILE ----------------------------- */
+@media only screen and (max-width : 480px){
+
+	.base-header .discord {
+	width: 310px;
+	height: 43px;
+	text-align:center;
+	background: #65224D;
+	transform: skew(165deg);
+	outline: 1px #AB2375 solid;
+	outline-offset: -8px;
+	padding: 0px 8px;
+	position:relative;
+	float:left;
+	margin-left: 100px;
+	margin-top:-60%;
+} 
+
+.base-header .reddit {
+	width: 310px;
+	height: 43px;
+	text-align:center;
+	background: #65224D;
+	transform: skew(165deg);
+	outline: 1px #AB2375 solid;
+	outline-offset: -8px;
+	padding: 0px 8px;
+	position:relative;
+	float:right;
+	margin-right: 100px;
+	margin-top:-50%;
+} 
+	
+	.base-menu {
+	margin:0; padding:0;
+	background-color: #AB2375;
+	height:43px;
+	margin-top:-10%;
+}
+	
+	.base-content {
+    background: rgba(17, 15, 18, 0.8);
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
+    margin: 0px 0 24px 0; padding: 36px;
+    margin-top: -10%;
+    margin-bottom:0px;
+}
+	
+}
+
+/* ------------------------------ RESOLUTION FIX: SMALLER ----------------------------- */
+
+@media only screen and (max-width : 1366px){
+	
+	.base-menu {
+	margin:0; padding:0;
+	background-color: #AB2375;
+	height:43px;
+	margin-top:-15%;
+}
+	
+	.base-content {
+    background: rgba(17, 15, 18, 0.8);
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
+    margin: 0px 0 24px 0; padding: 36px;
+    margin-top: -15%;
+    margin-bottom:0px;
+}
+	
+}
+
+/* ------------------------------ RESOLUTION FIX: BIGGER ----------------------------- */
+
+@media only screen and (max-width : 1920px){
+
+	.base-menu {
+	margin:0; padding:0;
+	background-color: #AB2375;
+	height:43px;
+	margin-top:5%;
+}
+	
+	.base-content {
+    background: rgba(17, 15, 18, 0.8);
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
+    margin: 0px 0 24px 0; padding: 36px;
+    margin-top: 5%;
+    margin-bottom:0px;
+}
+	
+}
