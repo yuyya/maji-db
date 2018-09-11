@@ -641,6 +641,7 @@
 		width: 25%;
 		margin-top:15px;
 		vertical-align: 8px;
+		display: inline;
 	}
 	
 	.modal-body .base-unit-view .img-unit {
@@ -652,6 +653,7 @@
 		margin-top:5%;
 		position: relative;
 		overflow: hidden;
+		display: inline;
 	}
 
 	.modal-body .base-unit-view .img-unit img {
@@ -671,8 +673,9 @@
 		color: #fff;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
 		margin-left: 0px;
-		line-height:5px;
+		line-height:16px;
 		word-wrap: normal;
+		display: inline;
 	}
 	
 	.modal-header .close {
