@@ -623,7 +623,7 @@
 		background: linear-gradient(to bottom, #000, #551C3F);
     		background-repeat: no-repeat;
 		margin-top:0px;
-		margin:auto;
+		margin-left:5px;
    		width: 80%;
 	}
 
@@ -669,7 +669,7 @@
 		font-size: 15px;
 		color: #fff;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
-		margin-left: 2px;
+		margin-left: -15px;
 	}
 	
 	.modal-header .close {
@@ -688,8 +688,8 @@
 	}
 
 	.modal-body .base-unit-view .base-tables {
-		margin-top:50%;
-		width:52%;
+		margin-top:30%;
+		width:99%;
 		height: 50%;
 		padding:5px;
 		border: 0px solid #efdbac;
