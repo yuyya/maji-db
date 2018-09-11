@@ -788,4 +788,12 @@ table tbody.cards tr td a {
   	left:0;
 }
 	
+	.base-content {
+    background: rgba(17, 15, 18, 0.8);
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
+    margin: 0px 0 24px 0;
+    padding: 60px 36px 36px 36px;
+    margin-top: -10%;
+}
+	
 }
