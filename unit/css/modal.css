@@ -607,7 +607,7 @@
 	}
 	
 	.modal-content {
-		width:100%;
+		width:90%;
 		margin-left:auto;
 		margin-right:auto;
 	}
@@ -645,8 +645,8 @@
 	}
 	
 	.modal-body .base-unit-view .img-unit {
-		width: 80%;
-		height: 150px;
+		width: 90%;
+		height: 180px;
 		border: 1px solid #AB2375;
 		outline: 2px solid #000;
 		background-color: #000;
@@ -725,6 +725,7 @@
 		border-top-right-radius: 5px;
 		background-color: #040404;
 		line-height:5px;
+		word-wrap: normal;
 	}
 
 	
