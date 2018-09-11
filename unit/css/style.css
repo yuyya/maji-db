@@ -26,6 +26,7 @@ table {
 	background-image: url(../img/db-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	position: fixed;
 	overflow:auto;
 	top:0;
    	bottom:0;
@@ -785,7 +786,6 @@ table tbody.cards tr td a {
 	width:100%;
 	background-image: url(../img/db-bg.jpg) no-repeat;
 	background-size: 100% 100%;
-	overflow:auto;
 	top:0;
    	bottom:0;
   	right:0;
