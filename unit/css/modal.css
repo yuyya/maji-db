@@ -638,6 +638,7 @@
 		margin: 0; padding: 0;
 		display: inline-block;
 		vertical-align: text-bottom;
+		margin-top:12px;
 	}
 
 	.modal-header .unit-icon img {
@@ -672,15 +673,16 @@
 		font-size: 15px;
 		color: #fff;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
-		margin-left: -15px;
+		margin-left: 0px;
+		width:100%;
 	}
 	
 	.modal-header .close {
 		opacity:1;
 		color: #AB2375;
 		position:absolute;
-		top: 20px;
-		right: 20px;
+		top: 15px;
+		right: 15px;
 		text-shadow: 2px 2px #000;
 	}
 
@@ -691,7 +693,7 @@
 	}
 
 	.modal-body .base-unit-view .base-tables {
-		margin-top:15%;
+		margin-top:10%;
 		width:105%;
 		height: 50%;
 		padding:5px;
