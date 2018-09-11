@@ -780,7 +780,7 @@ table tbody.cards tr td a {
 {  
     .dbbg {
 	width:100%;
-	background-image: url(../img/db-bg.jpg) no-repeat fixed;
+	background-image: url(../img/db-bg.jpg) no-repeat;
 	background-size: 100% 100%;
 	overflow:auto;
 	top:0;
