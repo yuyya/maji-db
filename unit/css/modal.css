@@ -614,7 +614,6 @@
 	
 	.modal-header {
 		width:100%;
-		height:20%;
 		border: 0px;
 		display: block;
 		padding: 0px;
@@ -628,11 +627,11 @@
 		margin-top:0px;
 		margin-left:0px;
    		width: 70%;
-		height:15%;
+		height:30px;
 	}
 
 	.modal-header .row {
-		width: 70%;
+		width: 100%;
 }	
 
 	.modal-header .unit-icon {
@@ -714,7 +713,7 @@
 	}
 	
 	.modal-body .base-unit-view .base-tables ul.nav li.left {
-		padding-left: 5px;
+		padding-left: 3px;
 	}
 	
 	.modal-body .base-unit-view .base-tables ul.nav li a,
