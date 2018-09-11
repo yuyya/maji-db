@@ -772,3 +772,20 @@ table tbody.cards tr td a {
 }
 	
 }
+
+/* ------------------------------ RESOLUTION FIX: CHROME ----------------------------- */
+
+@media not all and (-webkit-min-device-pixel-ratio:0)
+{  
+    .dbbg {
+	width:100%;
+	background-image: url(../img/db-bg.jpg) no-repeat fixed;
+	background-size: 100% 100%;
+	overflow:auto;
+	top:0;
+   	bottom:0;
+  	right:0;
+  	left:0;
+}
+	
+}
