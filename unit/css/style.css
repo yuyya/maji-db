@@ -147,7 +147,7 @@ hr {border-bottom: 1px solid #66224D}
 	position:relative;
 	float:left;
 	margin-left: 100px;
-	margin-top:-40vh;
+	margin-top:-40vw;
 } 
 
 .base-header .reddit {
@@ -162,7 +162,7 @@ hr {border-bottom: 1px solid #66224D}
 	position:relative;
 	float:right;
 	margin-right: 100px;
-	margin-top:-40vh;
+	margin-top:-40vw;
 } 
 
 .base-header p {
@@ -189,7 +189,7 @@ hr {border-bottom: 1px solid #66224D}
 	margin:0; padding:0;
 	background-color: #AB2375;
 	height:43px;
-	margin-top:-10vh;
+	margin-top:-10vw;
 }
 
 .base-menu ul {
@@ -258,7 +258,7 @@ hr {border-bottom: 1px solid #66224D}
     background: rgba(17, 15, 18, 0.8);
     box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
     margin: 0px 0 24px 0; padding: 36px;
-    margin-top: -10vh;
+    margin-top: -10vw;
     margin-bottom:0px;
 }
 
