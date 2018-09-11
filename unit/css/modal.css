@@ -639,7 +639,7 @@
 	}
 
 	.modal-header .unit-icon img {
-		width: 35%;
+		width: 25%;
 	}
 	
 	.modal-body .base-unit-view .img-unit {
@@ -671,7 +671,7 @@
 		color: #fff;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
 		margin-left: 0px;
-		width:90%;
+		width:100%;
 	}
 	
 	.modal-header .close {
@@ -690,7 +690,7 @@
 	}
 
 	.modal-body .base-unit-view .base-tables {
-		margin-top:0px;
+		margin-top:10px;
 		width:105%;
 		height: 50%;
 		padding:5px;
