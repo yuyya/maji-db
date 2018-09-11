@@ -615,7 +615,7 @@
 		display: block;
 		padding: 0px;
 		margin-left:0px;
-		margin-top:0px;
+		margin-top:15px;
 	}
 
 	#tablebg {
@@ -628,13 +628,13 @@
 	}
 
 	.modal-header .row {
-		width: 100%;
+		width: 120%;
 }	
 
 	.modal-header .unit-icon {
 		margin: 0; padding: 0;
 		display: inline;
-		vertical-align: text-bottom;
+		vertical-align: 8px;
 		margin-top:12px;
 	}
 
