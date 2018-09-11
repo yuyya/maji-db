@@ -616,7 +616,6 @@
 		padding: 0px;
 		margin-left:0px;
 		margin-top:15px;
-		overflow: auto;
 	}
 
 	#tablebg {
@@ -635,12 +634,15 @@
 	.modal-header .unit-icon {
 		margin: 0; padding: 0;
 		display: inline;
+		overflow: hidden;
+		
 	}
 
 	.modal-header .unit-icon img {
 		width: 25%;
 		margin-top:15px;
 		display: inline;
+		vertical-align: 3px;
 	}
 	
 	.modal-body .base-unit-view .img-unit {
@@ -661,6 +663,7 @@
  		left: -376px;
  		margin: auto;
 		opacity: 50%;
+		vertical-align: 3px;
 	}
 	
 	.modal-header h3 {
@@ -674,6 +677,7 @@
 		line-height:16px;
 		word-wrap: normal;
 		display: inline;
+		vertical-align: 3px;
 	}
 	
 	.modal-header .close {
