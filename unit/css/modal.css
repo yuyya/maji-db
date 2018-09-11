@@ -669,8 +669,9 @@
 
 	.modal-body .base-unit-view .base-tables {
 		margin-top:50%;
-		width:48%;
+		width:98%;
 		height: 50%;
+		padding:5px;
 		border: 0px solid #efdbac;
 		background-color: transparent;
 		box-shadow: 0 0 0px 0px #c7a664;
