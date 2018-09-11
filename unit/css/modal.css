@@ -642,7 +642,7 @@
 		width: 25%;
 		margin-top:15px;
 		display: inline;
-		vertical-align: text-top;
+		vertical-align: middle;
 	}
 	
 	.modal-body .base-unit-view .img-unit {
@@ -663,7 +663,7 @@
  		left: -376px;
  		margin: auto;
 		opacity: 50%;
-		vertical-align: text-top;
+		vertical-align: middle;
 	}
 	
 	.modal-header h3 {
@@ -678,7 +678,7 @@
 		word-wrap: normal;
 		display: inline;
 		width:70%;
-		vertical-align: text-top;
+		vertical-align: middle;
 	}
 	
 	.modal-header .close {
