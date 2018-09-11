@@ -623,7 +623,7 @@
 		background: linear-gradient(to bottom, #000, #551C3F);
     		background-repeat: no-repeat;
 		margin-top:0px;
-   		width: 100%;
+   		width: 80%;
 	}
 
 	.modal-header .row {
@@ -642,7 +642,7 @@
 	
 	.modal-body .base-unit-view .img-unit {
 		width: 100%;
-		height: 35%;
+		height: 350px;
 		border: 1px solid #AB2375;
 		outline: 2px solid #000;
 		background-color: #000;
@@ -668,6 +668,7 @@
 		font-size: 15px;
 		color: #fff;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
+		margin-left: 5%;
 	}
 	
 	.modal-header .close {
@@ -687,7 +688,7 @@
 
 	.modal-body .base-unit-view .base-tables {
 		margin-top:50%;
-		width:99vh;
+		width:100vh;
 		height: 50%;
 		padding:5px;
 		border: 0px solid #efdbac;
