@@ -408,7 +408,9 @@
 	}
 
 	.modal-body .base-unit-view .base-tables table tbody {
-		background-color: #ffffff
+		background-color: #D075B7;
+		font-weight: bold;
+		color: #65224D;
 	}
 
 	.modal-body .base-unit-view .base-tables table thead tr th,
@@ -419,13 +421,19 @@
 	}
 
 	.modal-body .base-unit-view .base-tables table thead tr td:first-child {
-		background-color: #D075B7
+		background-color: #D075B7;
+		font-weight: bold;
+		color: #65224D;
 	}
 	.modal-body .base-unit-view .base-tables table thead tr ts:nth-child(odd) {
-		background-color: #D075B7
+		background-color: #D075B7;
+		font-weight: bold;
+		color: #65224D;
 	}
 	.modal-body .base-unit-view .base-tables table thead tr ts:nth-child(even) {
-		background-color: #65224D
+		background-color: #65224D;
+		font-weight: bold;
+		color: #D075B7;
 	}
 
 	.modal-body .base-unit-view .base-tables table tbody tr td:first-child {
@@ -433,20 +441,30 @@
 	}
 
 	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(odd) td:first-child {
-		background-color: #D075B7
+		background-color: #D075B7;
+		font-weight: bold;
+		color: #65224D;
 	}
 	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(odd) td:nth-child(odd) ~ td:nth-child(odd){
-		background-color: #D075B7
+		background-color: #D075B7;
+		font-weight: bold;
+		color: #65224D;
 	}
 
 	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(even) td:first-child {
-		background-color: #65224D
+		background-color: #65224D;
+		font-weight: bold;
+		color: #D075B7;
 	}
 	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(even) td:nth-child(odd) ~ td:nth-child(odd){
-		background-color: #65224D
+		background-color: #65224D;
+		font-weight: bold;
+		color: #D075B7;
 	}
 	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(even) td:nth-child(even) {
-		background-color: #65224D
+		background-color: #65224D;
+		font-weight: bold;
+		color: #D075B7;
 	}
 
 
