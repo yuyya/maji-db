@@ -599,6 +599,7 @@
 		height: 100%;
 		padding: 5px;
 		background-color:#000;
+		background-image: none;
 		filter: drop-shadow(0px 0px 10px #D0098F);
    		top: 50%;
    		left: 50%;
@@ -607,6 +608,7 @@
 	
 	.modal-content {
 		width:100%;
+		margin-left:auto;
 	}
 	
 	.modal-header {
@@ -640,7 +642,7 @@
 	
 	.modal-body .base-unit-view .img-unit {
 		width: 100%;
-		height: 40%;
+		height: 35%;
 		border: 1px solid #AB2375;
 		outline: 3px solid #000;
 		background-color: #000;
@@ -678,7 +680,7 @@
 	}
 	
 	.modal-body .base-unit-view .base-tables .tab-content {
-		height: 50%;
+		height: 50vh;
 		overflow-y: auto;
 		background-color: #000;
 		border-top: 1px solid #transparent;
