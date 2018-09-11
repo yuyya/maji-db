@@ -668,6 +668,8 @@
 	}
 
 	.modal-body .base-unit-view .base-tables {
+		margin-top:50%;
+		width:48%;
 		height: 50%;
 		border: 0px solid #efdbac;
 		background-color: transparent;
@@ -698,6 +700,7 @@
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
 		background-color: #040404;
+		line-height:5px;
 	}
 
 	
