@@ -299,7 +299,7 @@
 		font-size: 20px;
 		font-weight: 700;
 		text-shadow:2px 2px #000;
-		display: inline;
+		float:left;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header .title p {
@@ -307,9 +307,9 @@
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header .title h5 {
+		float:right;
 		color: #fff;
-		font-size: 12px;
-		display: inline;
+		font-size: 20px;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
 	}
 
