@@ -414,18 +414,22 @@
 	.modal-body .base-unit-view .base-tables table thead tr th,
 	.modal-body .base-unit-view .base-tables table tbody tr td {
 		border: none;
-		padding: 8px;
+		padding: 12px;
 		border: 1px solid #AB2375;
 	}
 
-	.modal-body .base-unit-view .base-tables table thead tr:first-child {
+	.modal-body .base-unit-view .base-tables table thead tr td:first-child {
 		background-color: #D075B7
 	}
-	.modal-body .base-unit-view .base-tables table thead tr:nth-child(odd) {
+	.modal-body .base-unit-view .base-tables table thead tr ts:nth-child(odd) {
 		background-color: #D075B7
 	}
-	.modal-body .base-unit-view .base-tables table thead tr:nth-child(even) {
+	.modal-body .base-unit-view .base-tables table thead tr ts:nth-child(even) {
 		background-color: #65224D
+	}
+
+	.modal-body .base-unit-view .base-tables table tbody tr td:first-child {
+		font-weight: normal;
 	}
 
 /* ----------- CHARA LINK TAB ------------- */
