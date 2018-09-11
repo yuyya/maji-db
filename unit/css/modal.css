@@ -633,7 +633,6 @@
 
 	.modal-header .unit-icon {
 		margin: 0; padding: 0;
-		float:left;
 		overflow: hidden;
 		
 	}
@@ -641,6 +640,7 @@
 	.modal-header .unit-icon img {
 		width: 25%;
 		margin-top:15px;
+		float:left;
 	}
 	
 	.modal-body .base-unit-view .img-unit {
