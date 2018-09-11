@@ -709,7 +709,7 @@ table tbody.cards tr td a {
 
 /* ------------------------------ RESOLUTION FIX: BIGGER ----------------------------- */
 
-@media only screen and (max-width : 1920px){
+@media only screen and (min-width : 1920px){
 
 	.base-menu {
 	margin:0; padding:0;
