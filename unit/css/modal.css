@@ -292,6 +292,8 @@
 	.modal-body .base-unit-view .base-tables .base-skill .header .title {
 		flex: 3;
 		margin: 0 0 0 12px;
+		text-align:right;
+		display: inline;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header .title h3 {
@@ -303,9 +305,7 @@
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header .title h5 {
-		float:right;
 		color: #fff;
-		display: inline;
 		font-size: 20px;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
 	}
@@ -315,8 +315,6 @@
 		font-size: 20px;
 		font-weight: 700;
 		text-shadow:2px 2px #000;
-		display: inline;
-		float:right;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header .title p {
@@ -342,6 +340,18 @@
 		border-radius:5px;
 	}
 
+	.modal-body .base-unit-view .base-tables .base-ability .description {
+		padding: 4px 12px;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-ability .description p {
+		color: #fff;
+		font-size: 12px;
+		text-shadow:2px 2px #000;
+	}
+
+/* ----------- STATS TAB ------------- */
+
 	.modal-body .base-unit-view .base-tables .base-ability .header {
 		display: flex;
 		align-items: center;
@@ -360,7 +370,7 @@
 		font-size: 12px;
 		font-weight: bold;
 		margin: 0; padding: 6px 8px;
-		background-color: #65224D;
+		background-color: #200B1A;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .header .type h4:after {
@@ -369,7 +379,7 @@
 	    right: -12px; top: 0;
 	    width: 0; height: 0;
 	    border-top: 13px solid transparent;
-	    border-left: 12px solid #65224D;
+	    border-left: 12px solid #200B1A;
 	    border-bottom: 13px solid transparent;
 	}
 
@@ -384,18 +394,6 @@
 		color: #ffffff;
 		text-shadow: 0 0 4px #000000;
 	}
-
-	.modal-body .base-unit-view .base-tables .base-ability .description {
-		padding: 4px 12px;
-	}
-
-	.modal-body .base-unit-view .base-tables .base-ability .description p {
-		color: #fff;
-		font-size: 12px;
-		text-shadow:2px 2px #000;
-	}
-
-/* ----------- STATS TAB ------------- */
 
 	.modal-body .base-unit-view .base-tables table {
 		font-size: 12px;
