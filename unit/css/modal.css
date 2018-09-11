@@ -351,7 +351,7 @@
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .header.leader {
-		background-image: linear-gradient(to bottom, #330033, #CC00CC);
+		background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .header .type h4 {
@@ -360,7 +360,7 @@
 		font-size: 12px;
 		font-weight: bold;
 		margin: 0; padding: 6px 8px;
-		background-color: #323232;
+		background-color: #65224D;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .header .type h4:after {
@@ -369,7 +369,7 @@
 	    right: -12px; top: 0;
 	    width: 0; height: 0;
 	    border-top: 13px solid transparent;
-	    border-left: 12px solid #323232;
+	    border-left: 12px solid #65224D;
 	    border-bottom: 13px solid transparent;
 	}
 
