@@ -787,10 +787,14 @@ table tbody.cards tr td a {
 	background-image: url(../img/db-bg.jpg) no-repeat;
 	background-size: 100% 100%;
 	overflow: auto;
-	top:0;
-   	bottom:0;
-  	right:0;
-  	left:0;
+}
+	
+		.base-menu {
+	margin:0; padding:0;
+	background-color: #AB2375;
+	height:43px;
+	margin-top:-17%;
+	padding-bottom:50px;
 }
 	
 	.base-content {
