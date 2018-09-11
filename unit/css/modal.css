@@ -609,6 +609,7 @@
 	.modal-content {
 		width:100%;
 		margin-left:auto;
+		margin-right:auto;
 	}
 	
 	.modal-header {
@@ -626,6 +627,7 @@
 		margin-top:0px;
 		margin-left:5px;
    		width: 70%;
+		height:8%;
 	}
 
 	.modal-header .row {
@@ -689,8 +691,8 @@
 	}
 
 	.modal-body .base-unit-view .base-tables {
-		margin-top:30%;
-		width:100%;
+		margin-top:20%;
+		width:105%;
 		height: 50%;
 		padding:5px;
 		border: 0px solid #efdbac;
