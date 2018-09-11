@@ -280,6 +280,7 @@
 		border: 1px solid #78305B;
 		background-color: #551C3F;
 		border-radius:5px;
+		padding:10px;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header {
