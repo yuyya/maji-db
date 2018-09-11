@@ -650,7 +650,7 @@ table tbody.cards tr td a {
 	padding: 0px 8px;
 	position:relative;
 	float:left;
-	margin-top:-110%;
+	margin-top:-130%;
 } 
 
 .base-header .reddit {
@@ -664,7 +664,7 @@ table tbody.cards tr td a {
 	padding: 0px 8px;
 	position:relative;
 	float:left;
-	margin-top:-90%;
+	margin-top:-110%;
 } 
 	
 	.base-menu {
@@ -703,14 +703,14 @@ table tbody.cards tr td a {
 	font-family: arial;
 	text-decoration: none;
 	text-transform: uppercase;
-	margin: 0; padding: 5px;
+	margin: 0; padding-top: 5px;
 }
 	
 	.base-content {
     background: rgba(17, 15, 18, 0.8);
     box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
     margin: 0px 0 24px 0; padding: 36px;
-    margin-top: -10%;
+    margin-top: 0px;
     margin-bottom:0px;
 }
 	
@@ -725,7 +725,6 @@ table tbody.cards tr td a {
 	background-color: #AB2375;
 	height:43px;
 	margin-top:-17%;
-	margin-bottom:-20px;
 }
 	
 	.base-content {
@@ -733,7 +732,7 @@ table tbody.cards tr td a {
     box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
     margin: 0px 0 24px 0;
     padding: 36px;
-    margin-top: -17%;
+    margin-top: -20%;
     margin-bottom:0px;
 }
 	
@@ -748,7 +747,6 @@ table tbody.cards tr td a {
 	background-color: #AB2375;
 	height:43px;
 	margin-top:-4%;
-	margin-bottom:5%;
 }
 	
 	.base-content {
