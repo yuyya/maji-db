@@ -144,10 +144,10 @@ hr {border-bottom: 1px solid #66224D}
 	outline: 1px #AB2375 solid;
 	outline-offset: -8px;
 	padding: 0px 8px;
-	position:relative;
+	position:absolute;
 	float:left;
 	margin-left: 100px;
-	margin-top:10%;
+	margin-top:20%;
 } 
 
 .base-header .reddit {
@@ -159,10 +159,10 @@ hr {border-bottom: 1px solid #66224D}
 	outline: 1px #AB2375 solid;
 	outline-offset: -8px;
 	padding: 0px 8px;
-	position:relative;
+	position:absolute;
 	float:right;
 	margin-right: 100px;
-	margin-top:10%;
+	margin-top:20%;
 } 
 
 .base-header p {
