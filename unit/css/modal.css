@@ -299,6 +299,7 @@
 	.modal-body .base-unit-view .base-tables .base-skill .header .title h3 {
 		color: #FFF45C;
 		font-size: 20px;
+		display: inline;
 		font-weight: 700;
 		text-shadow:2px 2px #000;
 		float:left;
@@ -307,12 +308,14 @@
 	.modal-body .base-unit-view .base-tables .base-skill .header .title h5 {
 		color: #fff;
 		font-size: 20px;
+		display: inline;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header .title h6 {
 		color: #FFF45C;
 		font-size: 20px;
+		display: inline;
 		font-weight: 700;
 		text-shadow:2px 2px #000;
 	}
@@ -366,7 +369,7 @@
 
 	.modal-body .base-unit-view .base-tables .base-ability .header .type h4 {
 		position: relative;
-		color: #ffffff;
+		color: #AB2375;
 		font-size: 12px;
 		font-weight: bold;
 		margin: 0; padding: 6px 8px;
@@ -396,10 +399,11 @@
 	}
 
 	.modal-body .base-unit-view .base-tables table {
+		cursor: context-menu;
 		font-size: 12px;
 		margin: 0;
-		border: 1px solid #847d58;
-		outline: 2px solid #c5b080;
+		border: 0px solid #847d58;
+		outline: 2px solid #AB2375;
 		box-shadow: 0 0 0 1px #847d58;
 	}
 
@@ -411,38 +415,17 @@
 	.modal-body .base-unit-view .base-tables table tbody tr td {
 		border: none;
 		padding: 8px;
-		border: 1px solid #cccccc;
+		border: 1px solid #AB2375;
 	}
 
-	.modal-body .base-unit-view .base-tables table thead tr th:first-child {
-		background-color: #fdf9f5
+	.modal-body .base-unit-view .base-tables table thead tr:first-child {
+		background-color: #D075B7
 	}
-	.modal-body .base-unit-view .base-tables table thead tr th:nth-child(odd) {
+	.modal-body .base-unit-view .base-tables table thead tr:nth-child(odd) {
+		background-color: #D075B7
+	}
+	.modal-body .base-unit-view .base-tables table thead tr:nth-child(even) {
 		background-color: #65224D
-	}
-	.modal-body .base-unit-view .base-tables table thead tr th:nth-child(even) {
-		background-color: #f0e3ec
-	}
-
-	.modal-body .base-unit-view .base-tables table tbody tr td:first-child {
-		font-weight: normal;
-	}
-
-	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(odd) td:first-child {
-		background-color: #efe7ee
-	}
-	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(odd) td:nth-child(odd) ~ td:nth-child(odd){
-		background-color: #fef6ff
-	}
-
-	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(even) td:first-child {
-		background-color: #fdf9f5
-	}
-	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(even) td:nth-child(odd) ~ td:nth-child(odd){
-		background-color: #f9eef6
-	}
-	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(even) td:nth-child(even) {
-		background-color: #faf4fb
 	}
 
 /* ----------- CHARA LINK TAB ------------- */
