@@ -616,6 +616,7 @@
 		padding: 0px;
 		margin-left:0px;
 		margin-top:15px;
+		overflow: auto;
 	}
 
 	#tablebg {
@@ -634,13 +635,11 @@
 	.modal-header .unit-icon {
 		margin: 0; padding: 0;
 		display: inline;
-		vertical-align: 8px;
 	}
 
 	.modal-header .unit-icon img {
 		width: 25%;
 		margin-top:15px;
-		vertical-align: 8px;
 		display: inline;
 	}
 	
@@ -653,7 +652,6 @@
 		margin-top:5%;
 		position: relative;
 		overflow: hidden;
-		display: inline;
 	}
 
 	.modal-body .base-unit-view .img-unit img {
