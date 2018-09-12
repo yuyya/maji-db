@@ -7,10 +7,6 @@ body{
 
 body, html { margin:0; padding:0; height:100%; width:100%; }
 
-::-webkit-scrollbar {
-	display: none;
-}
-
 hr {border-bottom: 1px solid #66224D}
 
 ::selection { background-color: #AB2375; }
@@ -267,7 +263,7 @@ table {
     background: rgba(17, 15, 18, 0.8);
     box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
     margin: 0px 0 24px 0; padding: 36px;
-    margin-top: -10%;
+    margin-top: -8%;
     margin-bottom:0px;
 }
 
