@@ -738,7 +738,7 @@ table tbody.cards tr td a {
 
 /* ------------------------------ RESOLUTION FIX: SMALLER ----------------------------- */
 
-@media only screen and (max-width : 1366px){
+@media only screen and (max-width: 1366px){
 	
 	.base-menu {
 	margin:0; padding:0;
@@ -759,7 +759,7 @@ table tbody.cards tr td a {
 
 /* ------------------------------ RESOLUTION FIX: BIGGER ----------------------------- */
 
-@media only screen and (min-width : 1920px){
+@media only screen and (min-width: 1920px){
 
 	.base-menu {
 	margin:0; padding:0;
@@ -780,13 +780,13 @@ table tbody.cards tr td a {
 
 /* ------------------------------ RESOLUTION FIX: BIGGEST ----------------------------- */
 
-@media only screen and (min-width : 2560px){
+@media only screen and (min-width: 2560px){
 
 	.base-menu {
 	margin:0; padding:0;
 	background-color: #AB2375;
 	height:43px;
-	margin-top:0px;
+	margin-top:-2%px;
 }
 	
 	.base-content {
@@ -794,7 +794,7 @@ table tbody.cards tr td a {
     box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
     margin: 0px 0 0px 0;
     padding: 70px 36px 36px 36px;
-    margin-top: -1%;
+    margin-top: -3%;
 }
 	
 }
