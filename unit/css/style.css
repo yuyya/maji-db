@@ -34,9 +34,10 @@ table {
 }
 
 .dbheader {
+	width:100%;
 	background-position: absolute;
 	background-image: url(../img/db-headers.png);
-	background-size: contain;
+	background-size: auto 100%;
 	background-repeat: no-repeat;
 }
 
