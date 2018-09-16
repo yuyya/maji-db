@@ -647,7 +647,7 @@
 	
 	.modal-body .base-unit-view .img-unit {
 		width: 90%;
-		height: 25%;
+		height: 30vh;
 		border: 1px solid #AB2375;
 		outline: 2px solid #000;
 		background-color: #000;
@@ -668,7 +668,7 @@
 	
 	.modal-header h3 {
 		font-weight: 700;
-		font-size: 2vw;
+		font-size: 4vw;
 		color: #fff;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
 		margin-top: 0px;
