@@ -592,12 +592,13 @@
 
 
 /* ------------------------------ MOBILE VERSION ----------------------------- */
-@media only screen and (max-width : 480px){
+@media only screen and (max-width : 999px){
  
 	.modal.fade .modal-dialog {
 		width: 100%;
 		height: 100%;
 		padding: 5px;
+		position:absolute;
 		background-color:#000;
 		background-image: none;
 		filter: drop-shadow(0px 0px 10px #D0098F);
@@ -628,19 +629,20 @@
 	}
 
 	.modal-header .row {
-		width: 120%;
+		width: 150%;
 }	
 
 	.modal-header .unit-icon {
 		margin: 0; padding: 0;
 		overflow: hidden;
+		display: inline;
 		
 	}
 
 	.modal-header .unit-icon img {
-		width: 25%;
-		margin-top:15px;
-		float:left;
+		width: 20%;
+		margin-top:12px;
+		display: inline;
 	}
 	
 	.modal-body .base-unit-view .img-unit {
@@ -649,7 +651,7 @@
 		border: 1px solid #AB2375;
 		outline: 2px solid #000;
 		background-color: #000;
-		margin-top:5%;
+		margin-top:-7%;
 		position: relative;
 		overflow: hidden;
 	}
@@ -666,15 +668,15 @@
 	
 	.modal-header h3 {
 		font-weight: 700;
-		margin: 0; padding: 0;
 		font-size: 13px;
 		color: #fff;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
-		margin-left: 0px;
-		line-height:15px;
-		word-wrap: normal;
-		float:left;
+		margin-top: 0px;
+		line-height:13px;
+		display: inline-block;
+		vertical-align: -15px;
 		width:70%;
+		height:46px;
 	}
 	
 	.modal-header .close {
