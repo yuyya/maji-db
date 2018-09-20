@@ -113,9 +113,11 @@
 				$('#name-unit').text(window.chara[i]['name']);
 
 				$('#card-art').attr('src', '../common/assets/full/ch_' + id + '.png'); 
+				$('#skill1img-five').attr('src', '../common/assets/skill/trick_' + 'skill1img' + '.png'); 
 				$('#skill1name-five').text(window.chara[i]['skill1name']); 
 				$('#skill1-five').text(window.chara[i]['skill1']); 
 				$('#skill1cost-five').text(window.chara[i]['skill1cd']); 
+				$('#skill2img-five').attr('src', '../common/assets/skill/trick_' + 'skill2img' + '.png'); 
 				$('#skill2name-five').text(window.chara[i]['skill2name']); 
 				$('#skill2-five').text(window.chara[i]['skill2']); 
 				$('#skill2cost-five').text(window.chara[i]['skill2cd']); 
