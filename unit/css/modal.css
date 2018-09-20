@@ -283,6 +283,15 @@
 		padding:10px;
 	}
 
+	.modal-body .base-unit-view .base-tables .base-skill .skill-icon {
+		float:left;
+		padding-right:10px;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-skill .skill-icon img {
+		width:100%;
+	}
+
 	.modal-body .base-unit-view .base-tables .base-skill .header {
 		display: flex;
 		align-items: center;
