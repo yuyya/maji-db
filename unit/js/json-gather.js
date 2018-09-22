@@ -132,7 +132,7 @@
 					 auto = 'auto' + x;
                     			autoname = 'autoname' + x;
                     			autoimg = 'autoimg' + x;
-					if(window.chara[i][auto] != ""){
+					if(window.chara[i][auto] & window.chara[i][autoname] & window.chara[i][auto] != ""){
 							autoskill += '<div class="base-ability">' 
 								  +  	'<div class="description">'
 								  +	'<img src="../common/assets/autoskill/' + window.chara[i][autoimg] + '.png" align="left">'
