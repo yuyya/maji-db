@@ -347,7 +347,7 @@
 /* ----------- AUTO SKILL TAB ------------- */
 
 	.modal-body .base-unit-view .base-tables .base-ability {
-		margin: 0 0 12px 0;
+		margin: 0 0 5px 0;
 		border: 1px solid #78305B;
 		background-color: #551C3F;
 		border-radius:5px;
@@ -363,7 +363,7 @@
 		text-decoration:none;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .description img {
+	.modal-body .base-unit-view .base-tables .base-ability .description .asimg img {
 		width:65px;
 		float: left;
 		padding: 10px;
