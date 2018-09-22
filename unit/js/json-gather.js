@@ -136,7 +136,7 @@
 							autoskill += '<div class="base-ability">' 
 								  +  	'<div class="description">'
 						                  +	'<div class="asimg"><img src="../common/assets/autoskill/' + window.chara[i][autoimg] + '.png"></div>'
-								  +			'<h3 id="ability' + x + '">' + window.chara[i][autoname] + '</h3><br/>'
+								  +			'<h3 id="ability' + x + '">' + window.chara[i][autoname] + '</h3>'
 								  +			'<p id="ability' + x + '">' + window.chara[i][auto] + '</p>'
 								  +		'</div>'
 								  +	 '</div>';
