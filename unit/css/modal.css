@@ -357,9 +357,12 @@
 		padding: 4px 12px;
 	}
 
+	.modal-body .base-unit-view .base-tables .base-ability .description .asimg {
+		padding-right:10px;
+	}
+
 	.modal-body .base-unit-view .base-tables .base-ability .description img {
 		width:50px;
-		margin-right:10px;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description h3 {
@@ -372,6 +375,7 @@
 
 	.modal-body .base-unit-view .base-tables .base-ability .description p {
 		color: #fff;
+		display: inline;
 		font-size: 12px;
 		text-shadow:2px 2px #000;
 	}
