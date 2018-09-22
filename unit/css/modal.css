@@ -355,10 +355,11 @@
 
 	.modal-body .base-unit-view .base-tables .base-ability .description {
 		padding: 4px 12px;
+		display:inline;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .description .asimg {
-		padding-right:10px;
+	.modal-body .base-unit-view .base-tables .base-ability .asimg {
+		padding: 10px;
 		display:inline-block;
 	}
 
@@ -369,14 +370,12 @@
 	.modal-body .base-unit-view .base-tables .base-ability .description h3 {
 		color: #FFF45C;
 		font-size: 20px;
-		display:inline;
 		font-weight: 700;
 		text-shadow:2px 2px #000;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description p {
 		color: #fff;
-		display:inline;
 		font-size: 12px;
 		text-shadow:2px 2px #000;
 	}
