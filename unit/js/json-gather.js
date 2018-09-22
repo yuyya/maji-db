@@ -135,7 +135,7 @@
 					if(window.chara[i][auto] != ""){
 							autoskill += '<div class="base-ability">' 
 								  +  	'<div class="description">'
-								  +	'<img src="../common/assets/autoskill/' + window.chara[i][autoimg] + '.png" align="left">'
+								  +	'<img src="../common/assets/autoskill/' + window.chara[i][autoimg] + '.png" align="left" width="80px" style="margin-left:10px">'
 								  +			'<h3 id="ability' + x + '">' + window.chara[i][autoname] + '</h3>'
 								  +			'<p id="ability' + x + '">' + window.chara[i][auto] + '</p>'
 								  +		'</div>'
