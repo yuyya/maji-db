@@ -281,6 +281,7 @@
 		background-color: #551C3F;
 		border-radius:5px;
 		padding:10px;
+		overflow:hidden;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .skill-icon {
@@ -289,7 +290,7 @@
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .skill-icon img {
-		width:100%;
+		width:90%;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header {
@@ -754,6 +755,10 @@
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
 		background-image: linear-gradient(to bottom, #2D1221, #AB2375);
+	}
+	
+	.modal-body .base-unit-view .base-tables .base-skill .skill-icon img {
+		width:50%;
 	}
 
 	
