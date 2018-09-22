@@ -134,9 +134,9 @@
                     			autoimg = 'autoimg' + x;
 					if(window.chara[i][auto] != ""){
 							autoskill += '<div class="base-ability">' 
-								  +	'<div class="asimg"><img src="../common/assets/autoskill/' + window.chara[i][autoimg] + '.png"></div>'
 								  +  	'<div class="description">'
-								  +			'<h3 id="ability' + x + '">' + window.chara[i][autoname] + '</h3><br>'
+						                  +	'<div class="asimg"><img src="../common/assets/autoskill/' + window.chara[i][autoimg] + '.png"></div>'
+								  +			'<h3 id="ability' + x + '">' + window.chara[i][autoname] + '</h3><br/>'
 								  +			'<p id="ability' + x + '">' + window.chara[i][auto] + '</p>'
 								  +		'</div>'
 								  +	 '</div>';
