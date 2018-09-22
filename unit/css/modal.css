@@ -360,13 +360,13 @@
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .asimg {
-		padding-right: 10px;
+		text-decoration:none;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description img {
 		width:65px;
 		float: left;
-		padding-right: 10px;
+		padding: 10px;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description h3 {
