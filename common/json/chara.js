@@ -21,7 +21,7 @@ window.chara=[
           "skill2cd":  "100",
           "autoname1": "ATK Damage Resistance (big)",
           "auto1": "Increases Resistance against ATK Damage taken by 20% permanently at the start of the battle",
-          "autoimg1": "ATKDMGredu",
+          "autoimg1": "ATKDMGresist",
           "auto2name": "Paralyze Resistance",
           "auto2": "Increases Paralyze Resistance by 100% permanently at the start of the battle",
           "auto2img": "PARAresist",
