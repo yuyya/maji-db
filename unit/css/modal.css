@@ -357,6 +357,19 @@
 		padding: 4px 12px;
 	}
 
+	.modal-body .base-unit-view .base-tables .base-ability .description img {
+		width:50px;
+		margin-right:10px;
+	}
+
+	.modal-body .base-unit-view .base-tables .base-ability .description h3 {
+		color: #FFF45C;
+		font-size: 20px;
+		display: inline;
+		font-weight: 700;
+		text-shadow:2px 2px #000;
+	}
+
 	.modal-body .base-unit-view .base-tables .base-ability .description p {
 		color: #fff;
 		font-size: 12px;
