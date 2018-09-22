@@ -134,7 +134,7 @@
 					if(window.chara[i][auto] != ""){
 						autoskill += '<div class="base-ability">' 
 								  +  	'<div class="description">'
-								  +			'<h3 + x + '">' + window.chara[i][autoname] + '</h3>'
+								  +			'<h3>' + window.chara[i][autoname] + '</h3>'
 								  +			'<p id="ability' + x + '">' + window.chara[i][auto] + '</p>'
 								  +		'</div>'
 								  +	 '</div>';
