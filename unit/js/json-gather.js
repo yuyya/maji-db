@@ -129,14 +129,18 @@
 				var autoimg = '';
 				var x;
 				for (x = 1; x <= 5; x++){
+					 auto = 'auto' + x;
+                    			autoname = 'autoname' + x;
+                    			autoimg = 'autoimg' + x;
+
 							autoskill += '<div class="base-ability">' 
 								  +  	'<div class="description">'
-								  +	'<img src="../common/assets/autoskill/' + window.chara[i][autoimg] + x + '.png" align="left">'
-								  +			'<h3 id="ability' + x + '">' + window.chara[i][autoname] + x + '</h3>'
-								  +			'<p id="ability' + x + '">' + window.chara[i][auto] + x + '</p>'
+								  +	'<img src="../common/assets/autoskill/' + window.chara[i][autoimg] + '.png" align="left">'
+								  +			'<h3 id="ability' + x + '">' + window.chara[i][autoname] + '</h3>'
+								  +			'<p id="ability' + x + '">' + window.chara[i][auto] + '</p>'
 								  +		'</div>'
 								  +	 '</div>';
-					}
+					
 				}
 				document.getElementById("auto-skill").innerHTML = autoskill;
 
