@@ -32,8 +32,8 @@ window.chara=[
           "auto4": "Increases Damage given by 20% permanently at the start of the battle",
           "autoimg4": "DMGup",
           "autoname5": "Damage Reduction (big)",
-          "auto5": "+20% Damage Reduction",
-          "autoimg5": "DMGredu",
+          "auto5": "Reduces Damage taken by 20% permanently at the start of the battle",
+          "autoimg5": "DMGresist",
           "lead": "Heart Type DEF +15%",
           "rank": "G"
       },
