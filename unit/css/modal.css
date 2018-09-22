@@ -355,7 +355,6 @@
 
 	.modal-body .base-unit-view .base-tables .base-ability .description {
 		padding: 4px 12px;
-		display:inline;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .asimg {
@@ -372,12 +371,14 @@
 		font-size: 20px;
 		font-weight: 700;
 		text-shadow:2px 2px #000;
+		display:inline-block;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description p {
 		color: #fff;
 		font-size: 12px;
 		text-shadow:2px 2px #000;
+		display:inline-block;
 	}
 
 /* ----------- STATS TAB ------------- */
