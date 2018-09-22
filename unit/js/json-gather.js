@@ -132,7 +132,7 @@
 					 auto = 'auto' + x;
                     			autoname = 'autoname' + x;
                     			autoimg = 'autoimg' + x;
-
+					if(window.chara[i][auto] != ""){
 							autoskill += '<div class="base-ability">' 
 								  +  	'<div class="description">'
 								  +	'<img src="../common/assets/autoskill/' + window.chara[i][autoimg] + '.png" align="left">'
@@ -140,7 +140,7 @@
 								  +			'<p id="ability' + x + '">' + window.chara[i][auto] + '</p>'
 								  +		'</div>'
 								  +	 '</div>';
-					
+					}
 				}
 				document.getElementById("auto-skill").innerHTML = autoskill;
 
