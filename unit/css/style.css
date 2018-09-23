@@ -38,14 +38,12 @@ table {
 }
 
 .dbheader {
-	width:100%;
+	width: 100%;
+	height: auto;
 	background-position: absolute;
 	background-image: url(../img/db-headers.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	top:0;
-  	right:0;
-  	left:0;
 }
 
 .dbfooter {
