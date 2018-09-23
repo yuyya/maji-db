@@ -20,7 +20,7 @@ window.chara=[
           "skill2": "Deal 120% SP to target row",
           "skill2cd":  "100",
           "autoname1": "ATK Damage Resistance (big)",
-          "auto1": "Increases Resistance against ATK Damage taken by 20%<br> <hz>duration:</hz> permanent <hz>condition:</hz> at the start of the battle <hz>chance:</hz> 100%",
+          "auto1": "Increases Resistance against ATK Damage taken by 20%<br> <hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg1": "ATKDMGresist",
           "autoname2": "Paralyze Resistance",
           "auto2": "Increases Paralyze Resistance by 100% permanently at the start of the battle",
