@@ -335,7 +335,7 @@ window.chara=[
           "autoname2": "SP up (B)",
           "auto2": "Increases own SP by 25%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "SPup",
-          "autoname3": "Reikou's Successor"
+          "autoname3": "Reikou's Successor",
           "auto3": "Increases own Heart Damage by 50%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> when HP goes under 30% <hz>Chance:</hz> 100%",
           "autoimg3": "HEARTdmg",
           "autoname4": "Damage up (B)",
@@ -594,7 +594,7 @@ window.chara=[
           "skill2": "Deal +75% SP to all enemies",
           "skill2cd":  "100",
           "autoname1": "SP up (B)",
-          "auto1": "Increases own SP by 25%",
+          "auto1": "Increases own SP by 25%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg1": "SPup",
           "autoname2": "Stun Resistance (B)",
           "auto2": "Increases Resistance against Stun status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
