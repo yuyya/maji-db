@@ -312,7 +312,7 @@
 		display: inline;
 		font-weight: 700;
 		text-shadow:2px 2px #000;
-		text-align:left;
+		float:left;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header .title h5 {
