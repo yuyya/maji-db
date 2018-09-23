@@ -549,7 +549,7 @@ window.chara=[
           "skill2name": "Tomahawk Ax",
           "skill2": "Deal 85% ATK to target row with a 80% chance to reduce ATK Damage Resistance by 25% for 3 turns",
           "skill2cd":  "100",
-          "autoname1": "ATK up (B)"
+          "autoname1": "ATK up (B)",
           "auto1": "Increases own ATK by 25%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg1": "ATKup",
           "autoname2": "Blind Resistance (B)",
