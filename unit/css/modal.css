@@ -386,6 +386,11 @@
 		vertical-align:top;
 	}
 
+	.modal-body .base-unit-view .base-tables .base-ability .description p hz {
+		background-color: #C585D5;
+		border-radius: 5px;
+	}
+
 /* ----------- STATS TAB ------------- */
 
 	.modal-body .base-unit-view .base-tables .base-stats {
