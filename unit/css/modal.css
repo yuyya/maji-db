@@ -387,7 +387,8 @@
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description p hz {
-		background-color: #8F619B;
+		background-color: #331328;
+		color: #8F619B;
 		padding:3px;
 		border-radius: 3px;
 	}
