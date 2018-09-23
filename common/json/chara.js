@@ -23,7 +23,7 @@ window.chara=[
           "auto1": "Increases Resistance against ATK Damage taken by 20%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg1": "ATKDMGresist",
           "autoname2": "Paralyze Resistance",
-          "auto2": "Increases Paralyze Resistance by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance: 100%</hz>",
+          "auto2": "Increases Paralyze Resistance by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg2": "PARAresist",
           "autoname3": "Imitation Genius",
           "auto3": "Increases guard percentage by 30%<br><hz>Duration:</hz> 2 turns <hz>Condition:</hz> when HP drops under 50% <hz>Chance:</hz> 100%",
