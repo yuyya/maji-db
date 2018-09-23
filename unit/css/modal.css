@@ -363,10 +363,10 @@
 		text-decoration:none;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .description .asimg img {
+	.modal-body .base-unit-view .base-tables .base-ability .description img {
 		width:65px;
 		float: left;
-		padding: 10px;
+		padding: 5px;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description h3 {
