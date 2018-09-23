@@ -291,7 +291,7 @@
 
 	.modal-body .base-unit-view .base-tables .base-skill .skill-icon img {
 		width:25vw;
-		max-width:95%;
+		max-width:120px;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-skill .header {
@@ -788,7 +788,7 @@
 	}
 	
 	.modal-body .base-unit-view .base-tables .base-skill .skill-icon img {
-		max-width:95%;
+		max-width:120px;
 	}
 
 	
