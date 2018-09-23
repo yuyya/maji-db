@@ -355,7 +355,7 @@
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description {
-		padding: 5px;
+		padding: 10px;
 		text-align: left;
 		display:block;
 	}
@@ -367,6 +367,7 @@
 	.modal-body .base-unit-view .base-tables .base-ability .description img {
 		width:65px;
 		float: left;
+		padding-right: 10px;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description h3 {
