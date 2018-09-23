@@ -7,6 +7,10 @@ body{
 
 body, html { margin:0; padding:0; height:100%; width:100%; }
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 hr {border-bottom: 1px solid #66224D}
 
 ::selection { background-color: #AB2375; }
