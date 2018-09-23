@@ -351,7 +351,7 @@
 		border: 1px solid #78305B;
 		background-color: #551C3F;
 		border-radius:5px;
-		min-height:70px;
+		min-height:75px;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description {
@@ -361,7 +361,7 @@
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .asimg {
-		padding: 5px;
+		padding-right: 10px;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-ability .description img {
