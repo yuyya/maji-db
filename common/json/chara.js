@@ -132,8 +132,8 @@ window.chara=[
           "rank": "G"
       },
             {
-          "id": "10005",
-          "name": "Hiei, Jagan Amplification",
+          "id": "10063",
+          "name": "Hiei, Jet Black Swordsman",
           "type": "heart",
           "class": "ATK",
           "rare": "4",
@@ -172,7 +172,7 @@ window.chara=[
           "autoname5": "Damage Reduction (M)",
           "auto5": "Reduces Damage taken by 15%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Yin Type ATK +10%",
+          "lead": "Heart Type ATK +10%",
           "rank": "G"
       },
       {
