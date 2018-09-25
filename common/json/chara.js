@@ -908,7 +908,7 @@ window.chara=[
           "skill1cd":  "60",
           "skill2img": "100152",
           "skill2name": "Piercing Occupation",
-          "skill2": "Deal 170% ATK to taget",
+          "skill2": "Deal 170% ATK to target",
           "skill2cd":  "100",
           "autoname1": "Freeze Resistance (B)",
           "auto1": "Increases Resistance against Freeze Status by 100%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
