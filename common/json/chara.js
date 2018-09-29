@@ -3289,11 +3289,11 @@ window.chara=[
           "maxsp": "",
           "maxdef": "",
           "maxspd": "",
-          "skill1img": "100077",
+          "skill1img": "100079",
           "skill1name": "Rotation Claw Attack",
           "skill1": "Deal 160% ATK to target",
           "skill1cd":  "100",
-          "skill2img": "100078",
+          "skill2img": "100080",
           "skill2name": "Evil Outburst",
           "skill2": "+30% DEF to own column for 3 turns",
           "skill2cd":  "60",
@@ -3312,7 +3312,7 @@ window.chara=[
           "autoname5": "Damage Reduction (S)",
           "auto5": "Reduces Damage taken by 10%<br><hz>Duration:</hz> permanent <hz>Condition:</hz> at the start of the battle <hz>Chance:</hz> 100%",
           "autoimg5": "DMGresist",
-          "lead": "Dex Type ATK +5%",
+          "lead": "Body Type DEF +5%",
           "rank": "G"
       },
 ] 
