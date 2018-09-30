@@ -5,7 +5,7 @@
 		var model = '<tr class="clickable" data-toggle="modal" data-target="#newModal">'
 					+'		<td class="text-center"><img id="icon-table" src="../common/assets/thumb/ch_icon_' + id + '.png" height="75px" width="75px" /><div style="display:none">' + id + '</td>'
 					+'		<td class="text-left"><a href= "view/' + id + '" data-toggle="modal" data-target="#newModal"><strong>' + name + '</a></td>'
-					+'		<td class="text-center"><img id="icon-table" src="../common/assets/type/' + type + '.png"height="50px" width="50px/><div style="display:none;"></div></td>'
+					+'		<td class="text-center"><img id="icon-table" src="../common/assets/type/' + type + '.png"height="50px" width="50px" /><div style="display:none">' + type + '</td>'
 					+'		<td class="text-center">' + cclass + '</td>'
 					+'		<td class="text-center">' + rare + '</td>'
 					+'		<td class="text-center">' + power + '</td>'
@@ -112,12 +112,12 @@
 				$('#icon-unit').attr('src', '../common/assets/thumb/ch_icon_' + id + '.png'); 
 				$('#name-unit').text(window.chara[i]['name']);
 
-				$('#card-art').attr('src', '../common/assets/full/ch_' + id + '.png'); 
-				$('#skill1img-five').attr('src', '../common/assets/skill/trick_' + window.chara[i]['skill1img'] + '.png'); 
+				$('#card-art').attr('src', '../common/assets/full/ch_' + id + '.png');
+				$('#skill1img-five').attr('src', '../common/assets/skill/trick_' + window.chara[i]['skill1img'] + '.png');
 				$('#skill1name-five').text(window.chara[i]['skill1name']); 
 				$('#skill1-five').text(window.chara[i]['skill1']); 
-				$('#skill1cost-five').text(window.chara[i]['skill1cd']); 
-				$('#skill2img-five').attr('src', '../common/assets/skill/trick_' + window.chara[i]['skill2img'] + '.png'); 
+				$('#skill1cost-five').text(window.chara[i]['skill1cd']);
+				$('#skill2img-five').attr('src', '../common/assets/skill/trick_' + window.chara[i]['skill2img'] + '.png');
 				$('#skill2name-five').text(window.chara[i]['skill2name']); 
 				$('#skill2-five').text(window.chara[i]['skill2']); 
 				$('#skill2cost-five').text(window.chara[i]['skill2cd']); 
@@ -150,6 +150,12 @@
 				$('#sp').text(window.chara[i]['sp']);
 				$('#def').text(window.chara[i]['def']);
 				$('#spd').text(window.chara[i]['spd']);
+				$('#maxpower').text(window.chara[i]['maxpower']); 
+				$('#maxhp').text(window.chara[i]['maxhp']);
+				$('#maxatk').text(window.chara[i]['maxatk']);
+				$('#maxsp').text(window.chara[i]['maxsp']);
+				$('#maxdef').text(window.chara[i]['maxdef']);
+				$('#maxspd').text(window.chara[i]['maxspd']);
 		 	}
 		}
 	}
