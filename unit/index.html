@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>100% Maji Battle</title>
 
     <!--BOOTSTRAP -->
@@ -100,7 +100,6 @@
 														<li class="active"><a id="special-btn" class="active" data-toggle="tab" href="#special">Special</a></li>
 														<li class="left"><a id="auto-skill-btn" data-toggle="tab" href="#autoskill">Auto Skill</a></li>
 														<li class="left"><a id="status-btn" data-toggle="tab" href="#status">Stats</a></li>
-														<!-- <li class="left"><a id="link-btn" data-toggle="tab" href="#link">Chara Link</a></li> -->
 													</ul>
 												</div>
 												<div class="col-md-12">
@@ -152,34 +151,44 @@
 																</div>
 															</div>
 															<table class="table col-md-12 col-md-offset-4">
+																<thead>
+																	<tr>
+																		<th></th>
+																		<th>G Rank</th>
+																		<th>SSS Rank</th>
+																	</tr>
+																</thead>
 																<tbody>
 																	<tr>
 																		<td>Power</td>
 																		<td id="power"></td>
+																		<td id="maxpower"></td>
 																		</tr>
 																	<tr>
 																		<td>HP</td>
 																		<td id="hp"></td>
+																		<td id="maxhp"></td>
 																	<tr>
 																		<td>ATK</td>
 																		<td id="atk"></td>
+																		<td id="maxatk"></td>
 																	</tr>
 																	<tr>
 																		<td>SP</td>
 																		<td id="sp"></td>
+																		<td id="maxsp"></td>
 																	</tr>
 																	<tr>
 																		<td>DEF</td>
 																		<td id="def"></td>
+																		<td id="maxdef"></td>
 																	</tr>
 																	<tr>
 																		<td>SPD</td>
 																		<td id="spd"></td>
+																		<td id="maxspd"></td>
 																</tbody>
 															</table>
-														</div>
-														<div class="tab-pane fade" id="link" >
-															
 														</div>
 													</div>
 												</div>
@@ -188,7 +197,6 @@
 									</div>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</div>
@@ -254,7 +262,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<div id="filter-attribute" class="" style="padding: 10px; text-align: center;">
+					<div id="filter-type" class="" style="padding: 10px; text-align: center;">
 						<div class="list-group">
 							<div class="col-md-1">&#32;</div>
 							<div class="col-md-2">
@@ -280,7 +288,7 @@
 
 			<div class="row">
 				<div class="col-md-12">
-					<div id="filter-rare" class="" style="padding: 10px; text-align: center;">
+					<div id="filter-rarity" class="" style="padding: 10px; text-align: center;">
 						<div class="list-group">
 							<div class="col-md-1">&#32;</div>
 							<div class="col-md-2">
@@ -306,16 +314,16 @@
 
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2" style="margin-bottom: 10px;" >
-					<div id="filter-rare" class="" style="padding: 10px; text-align: center;">
+					<div id="filter-class" class="" style="padding: 10px; text-align: center;">
 						<div class="list-group">
 							<div class="col-md-4">
-							<a href="#" id="1" class="list-group-item">ATK</a>
+							<a href="#" id="ATK" class="list-group-item">ATK</a>
 							</div>
 							<div class="col-md-4">
-							<a href="#" id="2" class="list-group-item">SP</a>
+							<a href="#" id="SP" class="list-group-item">SP</a>
 							</div>
 							<div class="col-md-4">
-							<a href="#" id="3" class="list-group-item">DEF</a>
+							<a href="#" id="DEF" class="list-group-item">DEF</a>
 							</div>
 						</div>
 					</div>
@@ -344,7 +352,7 @@
 	</div><!-- fixed background div -->
 
 	<!-- JQUERY -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<!--BOOTSTRAP-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
