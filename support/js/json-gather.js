@@ -53,8 +53,8 @@
 			def = unit["def"];
 			spd = unit["spd"];
 
-			// Creates Entry
-			if(units.indexOf(chara[0]) == -1){ // Verifies Character ID
+			//Creates Entry
+			if(units.indexOf(support[0]) == -1){ // Verifies Character ID
 				units.push(unit[0]); // Adds Character in the array			
 				content += _createCard(id, name, type, cclass, rare, power, hp, atk, sp, def, spd); // chama a função passando os dados do card
 			}
@@ -74,12 +74,13 @@
 				var unit = [];
 				var cid = 0;
 				// Procura pelas informações da unidade
-				for(i in window.chara){
-					i = window.chara[i];
+				for(i in window.support){
+					i = window.support[i];
 					// Verifica o ID da unidade
 					if(i["cardId"]==id) {
 						/*
-							Se for o id que procuramos, salva o index 0 pra ser o 'five' e o index 1 para ser o 'six', para isso						  ▼ ID do card                                                 Raridade, 0 para 'five' e um para 'six' ▼ 
+							Se for o id que procuramos, salva o index 0 pra ser o 'five' e o index 1 para ser o 'six', para isso
+							  ▼ ID do card                                                 Raridade, 0 para 'five' e um para 'six' ▼ 
 							[579, "Madara Uchiha, End of the World", "Body", "None", 6, 35, 14789, 17589, 14605, 163, 16, 16, 147, 0]
 							[579, "Madara Uchiha, End of the World", "Body", "None", 6, 35, 14789, 17589, 14605, 163, 16, 16, 147, 1]
 									  ▲ ------------------ O que cada dessas variaveis significam? ----------------------------▲
@@ -91,10 +92,10 @@
 				// Crio um objeto com os dois tipos de cards
 				var cards = {
 					"five":{
-					  	unit:chara[0]
+					  	unit:support[0]
     				},
 					"six":{
-				 		unit:chara[0]
+				 		unit:support[0]
 					}
 				}
 				_buildCardModal(id, thumb, cards, cid);
@@ -106,21 +107,21 @@
 
 	function _buildCardModal(id, thumb, cards, cid){
 		console.log(cid);
-		for(var i in window.chara){
-			if(id == window.chara[i]['id']){
+		for(var i in window.support){
+			if(id == window.support[i]['id']){
 				$('#icon-unit').attr('src', '../common/assets/thumb/ch_icon_' + id + '.png'); 
-				$('#name-unit').text(window.chara[i]['name']);
+				$('#name-unit').text(window.support[i]['name']);
 
 				$('#card-art').attr('src', '../common/assets/full/ch_' + id + '.png');
-				$('#skill1img-five').attr('src', '../common/assets/skill/trick_' + window.chara[i]['skill1img'] + '.png');
-				$('#skill1name-five').text(window.chara[i]['skill1name']); 
-				$('#skill1-five').text(window.chara[i]['skill1']); 
-				$('#skill1cost-five').text(window.chara[i]['skill1cd']);
-				$('#skill2img-five').attr('src', '../common/assets/skill/trick_' + window.chara[i]['skill2img'] + '.png');
-				$('#skill2name-five').text(window.chara[i]['skill2name']); 
-				$('#skill2-five').text(window.chara[i]['skill2']); 
-				$('#skill2cost-five').text(window.chara[i]['skill2cd']); 
-				$('#leadname-five').text(window.chara[i]['lead']); 
+				$('#skill1img-five').attr('src', '../common/assets/skill/trick_' + window.support[i]['skill1img'] + '.png');
+				$('#skill1name-five').text(window.support[i]['skill1name']); 
+				$('#skill1-five').text(window.support[i]['skill1']); 
+				$('#skill1cost-five').text(window.support[i]['skill1cd']);
+				$('#skill2img-five').attr('src', '../common/assets/skill/trick_' + window.support[i]['skill2img'] + '.png');
+				$('#skill2name-five').text(window.support[i]['skill2name']); 
+				$('#skill2-five').text(window.support[i]['skill2']); 
+				$('#skill2cost-five').text(window.support[i]['skill2cd']); 
+				$('#leadname-five').text(window.support[i]['lead']); 
 
 				var autoskill = '';
 				var auto = '';
@@ -131,30 +132,30 @@
 					 auto = 'auto' + x;
                     			autoname = 'autoname' + x;
                     			autoimg = 'autoimg' + x;
-					if(window.chara[i][auto] != ""){
-							autoskill += '<div class="base-ability">' 
+					if(window.support[i][auto] != ""){
+							supportskill += '<div class="base-ability">' 
 								  +  	'<div class="description">'
-						                  +	'<div class="asimg"><img src="../common/assets/autoskill/' + window.chara[i][autoimg] + '.png"></div>'
-								  +			'<h3 id="ability' + x + '">' + window.chara[i][autoname] + '</h3>'
-								  +			'<p id="ability' + x + '">' + window.chara[i][auto] + '</p>'
+						                  +	'<div class="asimg"><img src="../common/assets/autoskill/' + window.support[i][autoimg] + '.png"></div>'
+								  +			'<h3 id="ability' + x + '">' + window.support[i][autoname] + '</h3>'
+								  +			'<p id="ability' + x + '">' + window.support[i][auto] + '</p>'
 								  +		'</div>'
 								  +	 '</div>';
 					}
 				}
-				document.getElementById("auto-skill").innerHTML = autoskill;
+				document.getElementById("support-skill").innerHTML = autoskill;
 
-				$('#power').text(window.chara[i]['power']); 
-				$('#hp').text(window.chara[i]['hp']);
-				$('#atk').text(window.chara[i]['atk']);
-				$('#sp').text(window.chara[i]['sp']);
-				$('#def').text(window.chara[i]['def']);
-				$('#spd').text(window.chara[i]['spd']);
-				$('#maxpower').text(window.chara[i]['maxpower']); 
-				$('#maxhp').text(window.chara[i]['maxhp']);
-				$('#maxatk').text(window.chara[i]['maxatk']);
-				$('#maxsp').text(window.chara[i]['maxsp']);
-				$('#maxdef').text(window.chara[i]['maxdef']);
-				$('#maxspd').text(window.chara[i]['maxspd']);
+				$('#power').text(window.support[i]['power']); 
+				$('#hp').text(window.support[i]['hp']);
+				$('#atk').text(window.support[i]['atk']);
+				$('#sp').text(window.support[i]['sp']);
+				$('#def').text(window.support[i]['def']);
+				$('#spd').text(window.support[i]['spd']);
+				$('#maxpower').text(window.support[i]['maxpower']); 
+				$('#maxhp').text(window.support[i]['maxhp']);
+				$('#maxatk').text(window.support[i]['maxatk']);
+				$('#maxsp').text(window.support[i]['maxsp']);
+				$('#maxdef').text(window.support[i]['maxdef']);
+				$('#maxspd').text(window.support[i]['maxspd']);
 		 	}
 		}
 	}
