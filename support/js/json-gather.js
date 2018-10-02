@@ -132,7 +132,7 @@
 								  +	 '</div>';
 					}
 				}
-				document.getElementById("support-skill").innerHTML = suportskill;
+				document.getElementById("support-skill").innerHTML = supportskill;
 
 				$('#power').text(window.support[i]['power']); 
 				$('#hp').text(window.support[i]['hp']);
