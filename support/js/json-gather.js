@@ -25,7 +25,7 @@
 		var content = ''; 
 		
 		var units = []; // Character's Info
-		var name = '';	// Character Name
+		var name = '';	// Charavter Name
 		var type = '';	// Character Type
 		var hp;			// Character HP
 		var atk;		// Character ATK
@@ -123,11 +123,11 @@
 				$('#skill2cost-five').text(window.support[i]['skill2cd']); 
 				$('#leadname-five').text(window.support[i]['lead']); 
 
-				var supportskill += '<div class="base-ability">' 
+				var supportskill = '<div class="base-ability">' 
 								  +  	'<div class="description">'
-						                  +	'<div class="asimg"><img src="../common/assets/autoskill/' + window.support[i][skillimg] + '.png"></div>'
-								  +			'<h3 id="ability' + x + '">' + window.support[i][skillname] + '</h3>'
-								  +			'<p id="ability' + x + '">' + window.support[i][skill] + '</p>'
+						                  +	'<div class="asimg"><img src="../common/assets/autoskill/' + window.support[i][autoimg] + '.png"></div>'
+								  +			'<h3 id="ability' + x + '">' + window.support[i][autoname] + '</h3>'
+								  +			'<p id="ability' + x + '">' + window.support[i][auto] + '</p>'
 								  +		'</div>'
 								  +	 '</div>';
 					}
