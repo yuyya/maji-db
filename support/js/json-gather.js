@@ -1,4 +1,4 @@
-﻿(function(){
+(function(){
 
 	function _createCard(id, name, type, cclass, rare, power, hp, atk, sp, def, spd){
 		//Create Entries in the Table
@@ -37,9 +37,9 @@
 		var id;			// Character ID
 		var cclass;		// Character class		
 		
-		for(var i in window.chara){
+		for(var i in window.support){
 			//Current Character
-			var unit = window.chara[i];
+			var unit = window.support[i];
 			//Add Info
 			id = unit['id'];
 			name = unit['name'];
@@ -53,7 +53,7 @@
 			def = unit["def"];
 			spd = unit["spd"];
 
-			//Creates Entry
+			// Creates Entry
 			if(units.indexOf(chara[0]) == -1){ // Verifies Character ID
 				units.push(unit[0]); // Adds Character in the array			
 				content += _createCard(id, name, type, cclass, rare, power, hp, atk, sp, def, spd); // chama a função passando os dados do card
@@ -79,8 +79,7 @@
 					// Verifica o ID da unidade
 					if(i["cardId"]==id) {
 						/*
-							Se for o id que procuramos, salva o index 0 pra ser o 'five' e o index 1 para ser o 'six', para isso
-							  ▼ ID do card                                                 Raridade, 0 para 'five' e um para 'six' ▼ 
+							Se for o id que procuramos, salva o index 0 pra ser o 'five' e o index 1 para ser o 'six', para isso						  ▼ ID do card                                                 Raridade, 0 para 'five' e um para 'six' ▼ 
 							[579, "Madara Uchiha, End of the World", "Body", "None", 6, 35, 14789, 17589, 14605, 163, 16, 16, 147, 0]
 							[579, "Madara Uchiha, End of the World", "Body", "None", 6, 35, 14789, 17589, 14605, 163, 16, 16, 147, 1]
 									  ▲ ------------------ O que cada dessas variaveis significam? ----------------------------▲
