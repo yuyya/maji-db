@@ -39,23 +39,23 @@
 		
 		for(var i in window.support){
 			//Current Character
-			var unit = window.support[i];
+			var sunit = window.support[i];
 			//Add Info
-			id = unit['id'];
-			name = unit['name'];
-			rare = unit["rare"];
-			type = unit["type"];
-			cclass = unit['class'];
-			power = unit['power'];
-			hp = unit["hp"];
-			atk = unit["atk"];
-			sp = unit["sp"];			
-			def = unit["def"];
-			spd = unit["spd"];
+			id = sunit['id'];
+			name = sunit['name'];
+			rare = sunit["rare"];
+			type = sunit["type"];
+			cclass = sunit['class'];
+			power = sunit['power'];
+			hp = sunit["hp"];
+			atk = sunit["atk"];
+			sp = sunit["sp"];			
+			def = sunit["def"];
+			spd = sunit["spd"];
 
 			//Creates Entry
 			if(units.indexOf(support[0]) == -1){ // Verifies Character ID
-				units.push(unit[0]); // Adds Character in the array			
+				units.push(sunit[0]); // Adds Character in the array			
 				content += _createCard(id, name, type, cclass, rare, power, hp, atk, sp, def, spd); // chama a função passando os dados do card
 			}
 		}
@@ -71,7 +71,7 @@
 		   if(e != null){
 				var id = parseInt(e.attr('href').split('view/').pop());
 				var thumb = $(this).find('img').attr('src');
-				var unit = [];
+				var sunit = [];
 				var cid = 0;
 				// Procura pelas informações da unidade
 				for(i in window.support){
@@ -85,17 +85,17 @@
 							[579, "Madara Uchiha, End of the World", "Body", "None", 6, 35, 14789, 17589, 14605, 163, 16, 16, 147, 1]
 									  ▲ ------------------ O que cada dessas variaveis significam? ----------------------------▲
 						*/
-						unit[i[i.length-1]] = i;
+						sunit[i[i.length-1]] = i;
 					}
 					cid = id;
 				}
 				// Crio um objeto com os dois tipos de cards
 				var cards = {
 					"five":{
-					  	unit:support[0]
+					  	sunit:support[0]
     				},
 					"six":{
-				 		unit:support[0]
+				 		sunit:support[0]
 					}
 				}
 				_buildCardModal(id, thumb, cards, cid);
