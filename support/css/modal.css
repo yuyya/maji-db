@@ -2,7 +2,7 @@
 		width: 960px;
 		height: 500px;
 		padding: 0px;
-		background-image: url(https://github.com/yuyya/maji-db/blob/master/unit/img/boxbg.png);
+		background-image: url('../unit/img/boxbg.png');
 		filter: drop-shadow(0px 0px 10px #D0098F);
 		position:fixed;
    		top: 50%;
@@ -44,7 +44,7 @@
 	}
 
 	#tablebg {
-		background-image: url('https://github.com/yuyya/maji-db/blob/master/unit/img/modal-table.png');
+		background-image: url('../unit/img/modal-table.png');
     		background-repeat: no-repeat;
    		margin-left: -10px;
 		margin-top:0px;
