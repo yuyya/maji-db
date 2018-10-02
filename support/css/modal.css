@@ -215,7 +215,7 @@
 		height: 322px;
 		overflow-y: auto;
 		background-color: #000;
-		border-top: 1px solid #transparent;
+		border-top: 5px solid #AB2375;
 		border-left: 1px solid #616161;
 		border-right: 1px solid #616161;
 		border-bottom: 1px solid #616161;
@@ -223,7 +223,27 @@
 		border-bottom-right-radius: 5px;
 	}
 
-/* ----------- TABLES NAVIGATION ------------- */
+	.modal-body .base-unit-view .base-tables .tab-content h2 {
+		text-align: center;
+		color: #C585D5;
+		font-size: 15px;
+		text-transform: uppercase;
+	}
+
+/* ----------- CONTENT TITLE ------------- */
+
+	.modal-body .base-unit-view .base-tables h1 {
+		color: #fff;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		text-shadow:2px 2px #000;
+		border: 2px solid #AB2375;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		background-image: linear-gradient(to bottom, #2D1221, #AB2375);
+		margin-top:5px;
+	}
 
 	.modal-body .base-unit-view .base-tables ul.nav {
 		display: flex;
@@ -395,10 +415,11 @@
 /* ----------- STATS TAB ------------- */
 
 	.modal-body .base-unit-view .base-tables .base-stats {
-		margin: 0 0 12px 0;
+		margin: 0 0 5px 0;
 		border: 1px solid #78305B;
 		background-color: #551C3F;
 		border-radius:5px;
+		min-height:75px;
 	}
 
 	.modal-body .base-unit-view .base-tables .base-stats .header {
