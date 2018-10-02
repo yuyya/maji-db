@@ -212,7 +212,6 @@
 /* ----------- TABLES CONTENT ------------- */
 
 	.modal-body .base-unit-view .base-tables .tab-content {
-		height: 322px;
 		overflow-y: auto;
 		background-color: #000;
 		border-top: 5px solid #AB2375;
@@ -233,16 +232,18 @@
 /* ----------- CONTENT TITLE ------------- */
 
 	.modal-body .base-unit-view .base-tables h1 {
+		min-width: 100px;
 		color: #fff;
 		font-size: 20px;
 		font-weight: bold;
 		text-align: center;
+		padding: 5px;
 		text-shadow:2px 2px #000;
 		border: 2px solid #AB2375;
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
 		background-image: linear-gradient(to bottom, #2D1221, #AB2375);
-		margin-top:5px;
+		margin-bottom:-10px;
 	}
 
 	.modal-body .base-unit-view .base-tables ul.nav {
