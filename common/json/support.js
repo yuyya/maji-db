@@ -1,4 +1,9 @@
 window.support=[
+     
+            // -------------------------------------------------------------------------------- 
+                                              // 5 STAR CARDS
+            // -------------------------------------------------------------------------------- 
+     
      {
           "id": "20001",
           "name": "Keiko Yukimura, Goddess of Victory",
@@ -40,8 +45,30 @@ window.support=[
           "maxdef": "7496",
           "maxspd": "412",
           "skillname": "SP up",
-          "skill": "Increases SP by 24% to equipped column<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> start of the WAVE <hz>Chance:</hz> 1000%",
+          "skill": "Increases SP by 24% to equipped column<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> start of the WAVE <hz>Chance:</hz> 100%",
           "skillimg": "ATKup",
+     },
+     {
+          "id": "20016",
+          "name": "Yukina, Dearly Prayer",
+          "type": "body",
+          "class": "DEF",
+          "rare": "5",
+          "power": "1011",
+          "hp": "550",
+          "atk": "200",
+          "def": "325",
+          "sp": "200",
+          "spd": "119",
+          "maxpower": "-",
+          "maxhp": "-",
+          "maxatk": "-",
+          "maxsp": "-",
+          "maxdef": "-",
+          "maxspd": "-",
+          "skillname": "Heal",
+          "skill": "Heals 50% HP to equipped unit<br><hz>Duration:</hz> instant <hz>Condition:</hz> when HP is under 50% <hz>Chance:</hz> 100%",
+          "skillimg": "HEAL",
      },
      {
           "id": "20019",
@@ -85,4 +112,9 @@ window.support=[
           "skillname": "",
           "skill": "Recover 29% HP upon death once",
      },
+     
+            // -------------------------------------------------------------------------------- 
+                                              // 4 STAR CARDS
+            // -------------------------------------------------------------------------------- 
+     
 ] 
