@@ -237,9 +237,10 @@
 		color: #fff;
 		display: table;
 		font-size: 25px;
+		font-weight:bold;
 		text-align: center;
 		text-transform: uppercase;
-		padding: 5px 20px;
+		padding: 5px 25px;
 		text-shadow:2px 2px #000;
 		border: 2px solid #AB2375;
 		border-top-left-radius: 5px;
@@ -296,7 +297,7 @@
 
 /* ----------- SPECIALS TAB ------------- */
 
-	.modal-body .base-unit-view .base-tables .base-skill {
+	.modal-body .base-unit-view .base-tables .tab-content .base-skill {
 		height:145px;
 		margin: 0 0 5px 0;
 		border: 1px solid #78305B;
@@ -306,30 +307,30 @@
 		overflow-y: auto;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-skill .skill-icon {
+	.modal-body .base-unit-view .base-tables .tab-content .base-skill .skill-icon {
 		float:left;
 		padding-right:10px;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-skill .skill-icon img {
+	.modal-body .base-unit-view .base-tables .tab-content .base-skill .skill-icon img {
 		width:25vw;
 		max-width:120px;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-skill .header {
+	.modal-body .base-unit-view .base-tables .tab-content .base-skill .header {
 		display: flex;
 		align-items: center;
 		border-bottom: 0px solid #272204;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-skill .header .title {
+	.modal-body .base-unit-view .base-tables .tab-content .base-skill .header .title {
 		flex: 3;
 		margin: 0px;
 		text-align:right;
 		display: inline;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-skill .header .title h3 {
+	.modal-body .base-unit-view .base-tables .tab-content .base-skill .header .title h3 {
 		color: #FFF45C;
 		font-size: 20px;
 		display: inline;
@@ -338,14 +339,14 @@
 		float:left;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-skill .header .title h5 {
+	.modal-body .base-unit-view .base-tables .tab-content .base-skill .header .title h5 {
 		color: #fff;
 		font-size: 20px;
 		display: inline;
 		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-skill .header .title h6 {
+	.modal-body .base-unit-view .base-tables .tab-content .base-skill .header .title h6 {
 		color: #FFF45C;
 		font-size: 20px;
 		display: inline;
@@ -353,15 +354,15 @@
 		text-shadow:2px 2px #000;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-skill .header .title p {
+	.modal-body .base-unit-view .base-tables .tab-content .base-skill .header .title p {
 		font-size: 10px;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-skill .description {
+	.modal-body .base-unit-view .base-tables .tab-content .base-skill .description {
 		padding: 4px 12px;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-skill .description p {
+	.modal-body .base-unit-view .base-tables .tab-content .base-skill .description p {
 		color: #fff;
 		font-size: 12px;
 		text-shadow:2px 2px #000;
@@ -369,7 +370,7 @@
 
 /* ----------- AUTO SKILL TAB ------------- */
 
-	.modal-body .base-unit-view .base-tables .base-ability {
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability {
 		margin: 0 0 5px 0;
 		border: 1px solid #78305B;
 		background-color: #551C3F;
@@ -377,23 +378,23 @@
 		min-height:75px;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .description {
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability .description {
 		padding: 10px;
 		text-align: left;
 		display:block;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .asimg {
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability .asimg {
 		padding-right: 10px;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .description img {
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability .description img {
 		width:65px;
 		float: left;
 		padding-right: 10px;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .description h3 {
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability .description h3 {
 		color: #FFF45C;
 		font-size: 20px;
 		font-weight: 700;
@@ -401,14 +402,14 @@
 		vertical-align:top;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .description p {
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability .description p {
 		color: #fff;
 		font-size: 12px;
 		text-shadow:2px 2px #000;
 		vertical-align:top;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-ability .description p hz {
+	.modal-body .base-unit-view .base-tables .tab-content .base-ability .description p hz {
 		background-color: #8F619B;
 		padding:3px;
 		border-radius: 3px;
