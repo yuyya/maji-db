@@ -123,7 +123,17 @@
 				$('#skill2cost-five').text(window.support[i]['skill2cd']); 
 				$('#leadname-five').text(window.support[i]['lead']); 
 
-				var supportskill = '<div class="base-ability">' 
+				var autoskill = '';
+				var auto = '';
+				var autoname = '';
+				var autoimg = '';
+				var x;
+				for (x = 1; x <= 5; x++){
+					 auto = 'auto' + x;
+                    			autoname = 'autoname' + x;
+                    			autoimg = 'autoimg' + x;
+					if(window.support[i][auto] != ""){
+							autoskill += '<div class="base-ability">' 
 								  +  	'<div class="description">'
 						                  +	'<div class="asimg"><img src="../common/assets/autoskill/' + window.support[i][autoimg] + '.png"></div>'
 								  +			'<h3 id="ability' + x + '">' + window.support[i][autoname] + '</h3>'
@@ -132,7 +142,7 @@
 								  +	 '</div>';
 					}
 				}
-				document.getElementById("support-skill").innerHTML = supportskill;
+				document.getElementById("auto-skill").innerHTML = autoskill;
 
 				$('#power').text(window.support[i]['power']); 
 				$('#hp').text(window.support[i]['hp']);
