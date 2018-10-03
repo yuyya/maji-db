@@ -114,9 +114,11 @@
 
 				$('#card-art').attr('src', '../common/assets/full/ch_' + id + '.png');
 				$('#skillname').text(window.support[i]['skillname']); 
-				$('#skill').text(window.support[i]['skill']);
 				$('#skillimg').attr('src', '../common/assets/autoskill/' + window.support[i]['skillimg'] + '.png');
 
+				var skilltxt = 'window.support[i][skill]';				
+				document.getElementById("skill").innerHTML = skilltxt;
+				
 				$('#power').text(window.support[i]['power']); 
 				$('#hp').text(window.support[i]['hp']);
 				$('#atk').text(window.support[i]['atk']);
