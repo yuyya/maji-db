@@ -360,6 +360,7 @@
 
 	.modal-body .base-unit-view .base-tables .tab-content .base-stats td {
 		text-align:center;
+		width: 15%;
 	}
 
 	.modal-body .base-unit-view .base-tables .tab-content .base-stats .yellow {
