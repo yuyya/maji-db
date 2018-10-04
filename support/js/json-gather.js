@@ -116,7 +116,7 @@
 				$('#skillname').text(window.support[i]['skillname']); 
 				$('#skillimg').attr('src', '../common/assets/autoskill/' + window.support[i]['skillimg'] + '.png');
 
-				var skilltxt = 'window.support[i][skill]';				
+				var skilltxt = 'window.support[i]['skill']';				
 				document.getElementById("skill").innerHTML = skilltxt;
 				
 				$('#power').text(window.support[i]['power']); 
