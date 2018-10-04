@@ -72,7 +72,7 @@ window.support=[
      },
      {
           "id": "20019",
-          "name": "Sakyo, Game Aesthetic",
+          "name": "Sakyo, A Game of Aesthetics",
           "type": "yin",
           "class": "SP",
           "rare": "5",
@@ -88,12 +88,13 @@ window.support=[
           "maxsp": "5712",
           "maxdef": "3572",
           "maxspd": "468",
-          "skillname": "",
-          "skill": "80% chance to reduce the front enemy column by 43% for 3 turns",
+          "skillname": "Defense Down",
+          "skill": "Decrease DEF by 43% to front enemy column<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> after a status decrease <hz>Chance:</hz> 80%",
+          "skillimg": "DEFdown",
      },
      {
           "id": "20024",
-          "name": "Koenma (Youth), Prince of the Spiritual World",
+          "name": "Koenma (Youth), Spirit World Royalty",
           "type": "dex",
           "class": "DEF",
           "rare": "5",
@@ -109,8 +110,9 @@ window.support=[
           "maxsp": "4284",
           "maxdef": "4640",
           "maxspd": "446",
-          "skillname": "",
-          "skill": "Recover 29% HP upon death once",
+          "skillname": "Ressurection",
+          "skill": "Revives equipped unit with 29% HP<br><hz>Duration:</hz> instant <hz>Condition:</hz> upon death <hz>Chance:</hz> 100%/1 time",
+          "skillimg": "REVIVE",
      },
      
             // -------------------------------------------------------------------------------- 
