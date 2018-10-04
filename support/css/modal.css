@@ -661,6 +661,22 @@
 		border-top-right-radius: 5px;
 		background-image: linear-gradient(to bottom, #2D1221, #AB2375);
 	}
+	
+		.modal-body .base-unit-view .base-tables .tab-content .base-stats .yellow {
+		color: #FFF45C;
+		font-size: 3vw;
+		font-weight: 700;
+		text-transform:uppercase;
+		text-shadow:2px 2px #000;
+	}
+
+	.modal-body .base-unit-view .base-tables .tab-content .base-stats .pg {
+		font-weight: 700;
+		font-size: 3vw;
+		color: #fff;
+		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
+	}
+
 
 	
 } 
