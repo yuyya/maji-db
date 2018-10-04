@@ -345,7 +345,7 @@
 
 /* ----------- STATS TAB ------------- */
 
-	.modal-body .base-unit-view .base-tables .base-stats {
+	.modal-body .base-unit-view .base-tables .tab-content .base-stats {
 		margin: 0 0 5px 0;
 		border: 1px solid #78305B;
 		background-color: #551C3F;
@@ -353,116 +353,25 @@
 		min-height:75px;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-stats .header {
-		display: flex;
-		align-items: center;
-		padding: 0;
-		border-bottom: 1px solid #272204;
-		background-image: linear-gradient(to bottom, #ffd804, #fff601);
+	.modal-body .base-unit-view .base-tables .tab-content .title {
+		color: #C585D5;
+		font-weight:bold;
+		text-align:center;
 	}
 
-	.modal-body .base-unit-view .base-tables .base-stats .header.leader {
-		background: linear-gradient(to bottom, #65224d 50%,#331328 51%);
-	}
-
-	.modal-body .base-unit-view .base-tables .base-stats .header .type h4 {
-		position: relative;
-		color: #AB2375;
-		font-size: 12px;
-		font-weight: bold;
-		margin: 0; padding: 6px 8px;
-		background-color: #200B1A;
-	}
-
-	.modal-body .base-unit-view .base-tables .base-stats .header .type h4:after {
-		content: "";
-	    position: absolute;
-	    right: -12px; top: 0;
-	    width: 0; height: 0;
-	    border-top: 13px solid transparent;
-	    border-left: 12px solid #200B1A;
-	    border-bottom: 13px solid transparent;
-	}
-
-	.modal-body .base-unit-view .base-tables .base-stats .header .title {
-		flex: 3;
-		margin: 0 0 0 18px;
-	}
-
-	.modal-body .base-unit-view .base-tables .base-stats .header .title h3 {
-		font-size: 14px;
+	.modal-body .base-unit-view .base-tables .tab-content .base-stats .yellow {
+		color: #FFF45C;
+		font-size: 20px;
 		font-weight: 700;
-		color: #ffffff;
-		text-shadow: 0 0 4px #000000;
-}
-
-	.modal-body .base-unit-view .base-tables table {
-		cursor: context-menu;
-		font-size: 12px;
-		margin: 0;
-		border: 0px solid #847d58;
-		outline: 2px solid #AB2375;
-		box-shadow: 0 0 0 1px #847d58;
+		text-transform:uppercase;
+		text-shadow:2px 2px #000;
 	}
 
-	.modal-body .base-unit-view .base-tables table tbody {
-		background-color: #D075B7;
-		font-weight: bold;
-		color: #65224D;
-	}
-
-	.modal-body .base-unit-view .base-tables table thead tr th,
-	.modal-body .base-unit-view .base-tables table tbody tr td {
-		border: none;
-		padding: 12px;
-		border: 1px solid #AB2375;
-	}
-
-	.modal-body .base-unit-view .base-tables table thead tr td:first-child {
-		background-color: #D075B7;
-		font-weight: bold;
-		color: #65224D;
-	}
-	.modal-body .base-unit-view .base-tables table thead tr ts:nth-child(odd) {
-		background-color: #D075B7;
-		font-weight: bold;
-		color: #65224D;
-	}
-	.modal-body .base-unit-view .base-tables table thead tr ts:nth-child(even) {
-		background-color: #65224D;
-		font-weight: bold;
-		color: #D075B7;
-	}
-
-	.modal-body .base-unit-view .base-tables table tbody tr td:first-child {
-		font-weight: normal;
-	}
-
-	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(odd) td:first-child {
-		background-color: #D075B7;
-		font-weight: bold;
-		color: #65224D;
-	}
-	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(odd) td:nth-child(odd) ~ td:nth-child(odd){
-		background-color: #D075B7;
-		font-weight: bold;
-		color: #65224D;
-	}
-
-	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(even) td:first-child {
-		background-color: #65224D;
-		font-weight: bold;
-		color: #D075B7;
-	}
-	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(even) td:nth-child(odd) ~ td:nth-child(odd){
-		background-color: #65224D;
-		font-weight: bold;
-		color: #D075B7;
-	}
-	.modal-body .base-unit-view .base-tables table tbody tr:nth-child(even) td:nth-child(even) {
-		background-color: #65224D;
-		font-weight: bold;
-		color: #D075B7;
+	.modal-body .base-unit-view .base-tables .tab-content .base-stats .pg {
+		font-weight: 700;
+		font-size: 20px;
+		color: #fff;
+		text-shadow: 1px 1px 5px #AB2375, 1px 1px 5px #AB2375;
 	}
 
 
