@@ -615,7 +615,6 @@
 	}
 	
 	.modal-body .base-unit-view .base-tables .tab-content {
-		height: 50vh;
 		overflow-y: auto;
 		background-color: #000;
 		border-top: 1px solid #transparent;
