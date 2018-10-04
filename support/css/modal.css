@@ -365,6 +365,7 @@
 
 	.modal-body .base-unit-view .base-tables .tab-content .base-stats table {
 		text-align:center;
+		cursor: default;
 	}
 
 	.modal-body .base-unit-view .base-tables .tab-content .base-stats .yellow {
