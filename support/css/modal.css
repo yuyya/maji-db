@@ -363,6 +363,10 @@
 		width: 15%;
 	}
 
+	.modal-body .base-unit-view .base-tables .tab-content .base-stats table {
+		text-align:center;
+	}
+
 	.modal-body .base-unit-view .base-tables .tab-content .base-stats .yellow {
 		color: #FFF45C;
 		font-size: 20px;
