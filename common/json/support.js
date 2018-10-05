@@ -376,7 +376,7 @@ window.support=[
           "maxspd": "-",
           "skillname": "SP Damage Resistance Down",
           "skill": "80% chance of decreasing target's resistance against SP damage taken by 21%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> when hit by a special <hz>Chance:</hz> 64%",
-          "skillimg": "SPDMGresistdown",
+          "skillimg": "SPDMGresist",
      },
      
      {
@@ -468,6 +468,33 @@ window.support=[
           "maxspd": "-",
           "skillname": "Atk Up",
           "skill": "Increases ATK of equipped unit by 28%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> when an ally dies <hz>Chance:</hz> 80%",
+          "skillimg": "ATKup",
+     },
+     
+            // -------------------------------------------------------------------------------- 
+                                              // 1 STAR CARDS
+            // -------------------------------------------------------------------------------- 
+     
+     {
+          "id": "20005",
+          "name": "Takenaka, Model Teacher",
+          "type": "heart",
+          "class": "ATK",
+          "rare": "1",
+          "power": "252",
+          "hp": "120",
+          "atk": "96",
+          "def": "60",
+          "sp": "24",
+          "spd": "121",
+          "maxpower": "-",
+          "maxhp": "-",
+          "maxatk": "-",
+          "maxsp": "-",
+          "maxdef": "-",
+          "maxspd": "-",
+          "skillname": "Atk Up",
+          "skill": "Increases ATK of equipped unit by 21%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> at the start of the WAVE <hz>Chance:</hz> 80%",
           "skillimg": "ATKup",
      },
      
