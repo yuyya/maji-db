@@ -517,7 +517,7 @@ window.support=[
           "maxdef": "-",
           "maxspd": "-",
           "skillname": "Atk Damage Resistance Down",
-          "skill": "80% chance of decreasing enemy's resistance against ATK damage taken by 21%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> when hit by a special <hz>Chance:</hz> 64%",
+          "skill": "80% chance of decreasing enemy's resistance against ATK damage by 21%<br><hz>Duration:</hz> 3 turns <hz>Condition:</hz> when hit by a special <hz>Chance:</hz> 64%",
           "skillimg": "ATKDMGresistdown",
      },
      
