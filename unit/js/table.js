@@ -26,8 +26,8 @@ $(document).ready( function () {
 		            { title: "Power" },
 		            { title: "HP" },
 		            { title: "ATK" },
-		            { title: "SP" },
 		            { title: "DEF" },
+		            { title: "SP" },
 		            { 
 		            	title: "SPD",
 		            	"visible": true,
