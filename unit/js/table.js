@@ -16,8 +16,8 @@ $(document).ready( function () {
 		            	title: "Name",
 		            	responsivePriority: 2
 		        	},
+		            { title: "Attribute" },
 		            { title: "Type" },
-		            { title: "Class" },
 		            { 
 		            	title: "Rarity",
 		            	"visible": true,
